@@ -1,0 +1,151 @@
+/***************************************
+   Default Styles
+***************************************/
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 62.5% Verdana, Helvetica, Arial, sans-serif;
+  color: #FFCC00;
+  background: #FFF;
+}
+#container {
+  font-size: 1.6em;
+  margin: 10px 2em;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 1;
+  font-weight: bold;
+  background: #000;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-bottom: .5em;
+}
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 0;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+a {
+  color: #06581f;
+}
+
+
+/***************************************
+   Chapter Styles
+***************************************/
+
+ul#books {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height:400px;
+  width: 1500px;
+  overflow: hidden;
+}
+ul#books li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  width: 2200px;
+  background-color: #330000;
+  position: relative;
+}
+ul#books li img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 850px;
+  height: 400px;
+}
+ul#books li .title {
+  margin-left: 850px;
+  padding:20px;
+  width: 800px;
+  font-weight: bold;
+  font-size: 2em;
+  background-color: #000;
+  color: #FFFF00;
+  overflow: hidden;
+}
+ul#books li .author {
+  margin-left: 850px;
+  padding: 20px 20px  20px;
+  width: 600px;
+  height:500px;
+  font-size: 1.2em;
+  font-weight: bold;
+  
+  background-color: #330000;
+  color: #FFFF00;
+}
+
+#books-controls {
+  margin: 20px 0;
+  width: 1000px;
+}
+#books-controls button {
+  margin: 0 20px 20px 0;
+  float: left;
+}
+#books-controls #slider {
+  clear: left;
+  margin: 20px 0;
+}
+
+h1 {
+  text-align: center;
+  border: 0 solid #fff;
+  width: 1000px;
+  margin-bottom: 40px;
+}
+h1.highlighted {
+  border: 20px solid #F79321;
+  padding: 20px;
+  width:920px;
+  margin-bottom: 0;
+  background-color: #000;
+  color: #F79321;
+}
+
+#books .ui-resizable-s {
+  bottom: 0;
+}
+
+.ui-content img {
+  display: block;
+}
+.ui-content .title {
+  padding: 10px;
+  margin: 0;
+  width: 280px;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #000;
+  color: #fff;
+  text-shadow: none;
+}
+.ui-content .author {
+  padding: 10px;
+  margin: 0;
+  width: 280px;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #F79321;
+  color: #fff;
+  text-shadow: none;
+}
+
+

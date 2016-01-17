@@ -1,0 +1,13 @@
+G:\工资查询论文\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache
+G:\工资查询论文\WebApplication2\WebApplication2\obj\Debug\WebApplication2.Addmsg.aspx.resources
+G:\工资查询论文\WebApplication2\WebApplication2\obj\Debug\WebApplication2.Adminhf.aspx.resources
+G:\工资查询论文\WebApplication2\WebApplication2\obj\Debug\WebApplication2.Global.asax.resources
+G:\工资查询论文\WebApplication2\WebApplication2\obj\Debug\WebApplication2.home.aspx.resources
+G:\工资查询论文\WebApplication2\WebApplication2\obj\Debug\WebApplication2.Login_M.aspx.resources
+G:\工资查询论文\WebApplication2\WebApplication2\obj\Debug\WebApplication2.ModifyPass.aspx.resources
+G:\工资查询论文\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.GenerateResource.Cache
+G:\工资查询论文\WebApplication2\WebApplication2\bin\WebApplication2.dll.config
+G:\工资查询论文\WebApplication2\WebApplication2\bin\WebApplication2.dll
+G:\工资查询论文\WebApplication2\WebApplication2\bin\WebApplication2.pdb
+G:\工资查询论文\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
+G:\工资查询论文\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb

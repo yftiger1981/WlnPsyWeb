@@ -1,0 +1,25 @@
+﻿body {
+}
+.button {
+    width:70px;
+    height:30px;
+    border:solid;
+}
+p {
+    font:400;
+    font-family:initial;
+    color:red;
+}
+a {
+    font:400;
+    font-family:Arial
+    color:blue;
+}
+.textbox {
+    border-style: solid;
+    border-color: inherit;
+    border-width: medium;
+    width:150px;
+    height:30px;
+    margin-left: 0px;
+}

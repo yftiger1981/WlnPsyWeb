@@ -1,0 +1,839 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>SOULCASTLE儿童系统</title>
+<link  rel="SHORTCUT ICON" href="..\Imagescom\scico.gif" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<link href='http://fonts.useso.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+<link href='http://fonts.useso.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- js -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<!-- //js -->
+<!-- for-mobile-apps -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Alor Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //for-mobile-apps -->
+<!-- start-smoth-scrolling -->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+<!-- start-smoth-scrolling -->
+</head>
+	
+<body>
+<!-- header -->
+	<div class="header">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo.png" alt=" " /></a>
+			</div>
+			<div class="logo-right">
+				<span class="menu"><img src="images/menu.png" alt=" "/></span>
+					<ul class="nav1">
+						<li class="cap"><a href="\soulcastlefrontpage.html" class="act">返回主页</a></li>
+						<li><a href="#history" class="scroll">儿童系统</a></li>
+						<li><a href="#about" class="scroll">儿童论坛</a></li>
+						<li><a href="#activities" class="scroll">活动之星</a></li>
+						<li><a href="#childrens" class="scroll">活动简介</a></li>
+						<li><a href="#team" class="scroll">自助查询</a></li>
+						<li><a href="#news" class="scroll">儿童新闻</a></li>
+						<li><a href="#contact" class="scroll">联系我们</a></li>
+					</ul>
+			</div>
+			<div class="clearfix"> </div>
+			<!-- script for menu -->
+					<script> 
+						$( "span.menu" ).click(function() {
+						$( "ul.nav1" ).slideToggle( 300, function() {
+						 // Animation complete.
+						});
+						});
+					</script>
+				<!-- //script for menu -->
+		</div>
+	</div>
+<!-- //header -->
+<!-- banner -->
+	<div class="banner">
+		<div class="container">
+<!-- Slider-starts-Here -->
+				<script src="js/responsiveslides.min.js"></script>
+				 <script>
+				    // You can also use "$(window).load(function() {"
+				    $(function () {
+				      // Slideshow 4
+				      $("#slider3").responsiveSlides({
+				        auto: true,
+				        pager: false,
+				        nav: true,
+				        speed: 500,
+				        namespace: "callbacks",
+				        before: function () {
+				          $('.events').append("<li>before event fired.</li>");
+				        },
+				        after: function () {
+				          $('.events').append("<li>after event fired.</li>");
+				        }
+				      });
+				
+				    });
+				  </script>
+			<!--//End-slider-script -->
+			<div  id="top" class="callbacks_container wow fadeInUp" data-wow-delay="0.5s">
+				<ul class="rslides" id="slider3">
+					<li>
+						<div class="banner-info">
+							<h1>欢迎来到SOULCASTLE心灵之家 儿童系统</h1>
+							<a href="../private/zhuanjiajianjie.html" class="hvr-bounce-to-right read">了解更多</a>
+						</div>
+					</li>
+					<li>
+						<div class="banner-info">
+							<h1>欢迎来到心理咨询自助平台</h1>
+							<a href="../adultsystem/soulcastleadult.html" class="hvr-bounce-to-right read">了解更多</a>
+						</div>
+					</li>
+					<li>
+						<div class="banner-info">
+							<h1>为孩子们打造一个自助型智能平台</h1>
+							<a href="../special/soulcastlespecialentering.html"" class="hvr-bounce-to-right read">了解更多</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+<!-- //banner -->
+<!-- banner-bottom -->
+	<div class="banner-bottom">
+		<div class="container">
+			<div class="banner-bottom-grids">
+				<div class="forced">
+					<p>享受大师的礼物！</p>
+					<h2>soulcastle 专家名言</h2>
+				</div>
+				<div class="donate">
+					<div class="Alor" >
+						
+						<p class="active">空白屏幕”(Blankscreen)的概念是关于治疗师与病人之间完美关系的第一个模型
+				        (现在已经被废除了)。它要求治疗师保持中介、或多或少地隐匿自己，希望病人可以把重要的移情投射在这
+						个“空白屏幕”上。一旦移情(早期与父母关系在当前的显现)发生在治疗中，就可以用作分析，治疗师就可以
+						更加准确地重构病人的早期生活。如果治疗师把他(她)作为一个独特的个体进行展现，病人的投射会更加困
+						难(当时认为是这样)。</span></p>
+					</div>
+					<div class="us">
+						<a href="..\.\news\childnews.html" class="hvr-bounce-to-right read">了解更多</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //banner-bottom -->
+<!-- history -->
+	<div id="history" class="history">
+		<div class="container">
+			<h3>儿童系统</h3>
+			<p class="libero">亲爱的家长，很荣幸你选择了SOULCASTLE心灵之家儿童系统，这里为你打造一个专业的教育咨询中心。你将会遇见成百上千的
+			的专家帮助你。
+			亲爱的咨询师们，你们能来到SOULCASTLE心灵之家儿童系统，将会找到更多需要帮助的客户，为你们的咨询研究拓展更大空间。</p>
+			<div class="history-grids">
+				<div class="col-md-6 history-grid">
+					<img class="one" src="images/1.png" alt=" " />
+				</div>
+				<div class="col-md-6 history-grid">
+					<div class="history-grid1" >
+						<div class="history-grid-left" >
+							
+						</div>
+						<div class="history-grid-right">
+							<h4>儿童个人帮助</h4><span  class="label"  style="clear:inherit"> <a href="../department/childpersonlyhepler.html">链接到儿童个人帮助</a> </span>
+							<p>进入这个房间，家长能在里面获得更多儿童个人活动的信息，也包括自闭症儿童。你们在此也能形成自己的圈子。</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="history-grid1">
+						<div class="history-grid-left1" >
+							
+						</div>
+						<div class="history-grid-right">
+							<h4>儿童团体帮助</h4><span  class="label"  style="clear:inherit"> <a href="../department/childgrouphepler.html">链接到儿童团体帮助</a> </span>
+							<p>在这个房间里，有更多的心理团体课程将与你相见，他们都是专业的咨询师，帮助你的孩子在团队合作中获得灵感。</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="history-grid1">
+						<div class="history-grid-left2">
+						
+						</div>
+						<div class="history-grid-right">
+							<h4>儿童情感转移</h4><span  class="label"  style="clear:inherit"> <a href="../department/childmove.html">链接到儿童情感转移</a> </span>
+							<p>这是一个大房间，当然我们要求家长保证孩子是正常的基础上，安全进入，里面有更多精彩活动的商家在等你们参加。</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="history-grid1">
+						<div class="history-grid-left3">
+							
+						</div>
+						<div class="history-grid-right">
+							<h4>儿童文体艺培养</h4><span  class="label"  style="clear:inherit"> <a href="../department/childfoster.html">链接到儿童文体艺培养</a> </span>
+							<p>因材施教是中国古老的教育，根据不同孩子的兴趣爱好进行培养，相信这里是更好的选择。各种技能的培训师在这里。</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //history -->
+<!-- lorum -->
+	<div id="about" class="about"><div class="lorum">
+		<div class="container">
+			<div class="lorum-info">
+				<h3>到儿童论坛来坐坐，会有意想不到的发现哦！
+					<span>欢迎来到SOULCASTLE心灵之家儿童系统论坛</span></h3>
+					
+				</div>
+		</div>
+		
+		<h2><a href="../news/childforum.html" >来儿童论坛</a></h2>
+	</div></div></div>
+<!-- //lorum -->
+<!-- about -->
+	<div id="about" class="about">
+		<div class="container">
+			<h3>本期活动之星</h3>
+			<div class="about-top-text">
+				<p>亲爱的用户们，我们每期将为你推荐一位特别的咨询师，他是系统最热门咨询师。有时活动之星也会是出色的孩子们！</p>
+			</div>
+			<p class="unique">每期系统按照统计，发布点击率最多的心理咨询师为本期的活动之星。本着平民化的本色，让每一位来到这里的人感到
+			更多的平等互爱。</p>
+			<div class="about-grids">
+				<div class="col-md-6 about-grid">
+					<h2>孩子们的互动</h2>
+					<div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						<span class="sr-only">60% Complete</span>
+					  </div>
+					</div>
+					<div class="about-grid-fig">
+						<a class="play-icon popup-with-zoom-anim" href="#small-dialog">
+							<span> </span>
+						</a>
+							<!-- pop-up-box -->
+							<script type="text/javascript" src="js/modernizr.custom.min.js"></script>    
+							<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+							<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+							<!--//pop-up-box -->
+							<div id="small-dialog" class="mfp-hide">
+								<iframe src="https://player.vimeo.com/video/10260175?title=0&byline=0&portrait=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+							</div>
+							<script>
+								$(document).ready(function() {
+								$('.popup-with-zoom-anim').magnificPopup({
+									type: 'inline',
+									fixedContentPos: false,
+									fixedBgPos: true,
+									overflowY: 'auto',
+									closeBtnInside: true,
+									preloader: false,
+									midClick: true,
+									removalDelay: 300,
+									mainClass: 'my-mfp-zoom-in'
+								});
+																								
+								});
+							</script>
+				  </div>
+				</div>
+				<div class="col-md-6 about-grid">
+					<h2 class="community">活动</h2>
+					<div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						<span class="sr-only">60% Complete</span>
+					  </div>
+					</div>
+					<div class="mission-vision">
+						<div class="mission-grid">
+							<h4>我们的任务:</h4>
+							<div class="mission">
+								<p>"找到相同颜色的玩具，放在同一种颜色的篮子里面。"</p>
+							</div>
+						</div>
+						<div class="vission-grid">
+							<h4>我们的感受:</h4>
+							<div class="mission">
+								<p>"篮子太多，我们很快把它们放进去，"</p>
+							</div>
+						</div>
+						<div class="more">
+							<a href="#" class="hvr-bounce-to-right">了解更多</a>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"><img src="images/2.jpg" alt=" " /> </div>
+			</div>
+		</div>
+	</div>
+<!-- //about -->
+<!-- activities -->
+	<div id="activities" class="activities">
+		<div class="container">
+			<h3>活动之星</h3>
+			<p class="libero">我们的活动之星是： </p>
+			<div class="activities-grids">
+				<div class="col-md-4 activities-grid">
+					<div class="activities-grid-left">
+						<span> </span>
+					</div>
+					<div class="activities-grid-right">
+						<h4>团队组织</h4>
+						<p>在团队活动中，我们也不乏有能力突出的孩子。来看看他们的参加活动的感受。</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 activities-grid">
+					<div class="activities-grid-left1">
+						<span> </span>
+					</div>
+					<div class="activities-grid-right">
+						<h4>社区活动</h4>
+						<p>让更多的社区连在一起，让更多的社区孩子能够走近。社区活动为你展示：</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="col-md-4 activities-grid">
+					<div class="activities-grid-left2">
+						<span> </span>
+					</div>
+					<div class="activities-grid-right">
+						<h4>政府支持</h4>
+						<p>SOULCASTLE心灵之家心理咨询自助平台，是一个绿色环保，快捷，安全方便的咨询平台。我们按照行业规范，要求咨询师进行身份证登入。
+						从此诚信与你我之间。
+						</p>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="history-faq-grids">
+				<div class="col-md-6 history-faq-grid">
+					<h4>更多支持</h4>
+					<div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						<span class="sr-only">60% Complete</span>
+					  </div>
+					</div>
+					<div class="sap_tabs">	
+						<div id="horizontalTab" style="display: block; width: 100%; margin: 0px;">
+							  <ul class="resp-tabs-list">
+								  <li class="resp-tab-item grid1" aria-controls="tab_item-0" role="tab"><span>2010</span></li>
+								  <li class="resp-tab-item grid2" aria-controls="tab_item-1" role="tab"><span>2011</span></li>
+								  <li class="resp-tab-item grid3" aria-controls="tab_item-2" role="tab"><span>2012</span></li>
+								  <li class="resp-tab-item grid5" aria-controls="tab_item-3" role="tab"><span>2014</span></li>
+								  <div class="clear"></div>
+							  </ul>				  	 
+								<div class="resp-tabs-container">
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-0">
+										<div class="facts">
+										  <ul class="tab_list">
+											<li><a href="#">感觉这种活动还是应该多参加。</a></li>
+											<li><a href="#">现在对心理咨询这个行业，不能停留在苦口婆心上，把它当成科学对待。</a></li>
+										  </ul>
+										</div>
+									</div>
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-1">
+										<div class="facts">
+										  <ul class="tab_list">
+											<li><a href="#">让孩子形成自己的圈子是不错的想法啊，关键看如何引导。</a></li>
+											<li><a href="#">现在越来越多的人都愿意选择绿色出行，更希望通过互联网查到更多适合孩子的信息。</a></li>
+										  </ul>
+										</div>
+									</div>
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-2">
+										<div class="facts">
+										  <ul class="tab_list">
+											<li><a href="#">其实每个人都需要心理咨询师，就是费用太高，没什么选择余地。</a></li>
+											<li><a href="#">感觉这种活动还是应该多参加。</a></li>
+										  </ul>
+										</div>
+									</div>
+									<div class="tab-1 resp-tab-content" aria-labelledby="tab_item-3">
+										<div class="facts">
+										  <ul class="tab_list">
+											<li><a href="#">活动很有想法。</a></li>
+											<li><a href="#">我们政府是支持绿色环保产业的。</a></li>
+										  </ul>
+										</div>
+									</div>
+								</div>
+						</div>
+					</div>
+
+				</div>
+				<div class="col-md-6 history-faq-grid">
+					<h4>在线答疑</h4>
+					<div class="progress">
+					  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+						<span class="sr-only">60% Complete</span>
+					  </div>
+					</div>
+					<div class="faq-info">
+						<div class="eiusmod">
+							<p class="para">为什么要分为儿童系统和成人系统?</p>
+							<p class="para1"> 目前市场上，心理咨询行业中经常会遇到家长带着小孩来咨询教育方面的问题。
+							 作为咨询师们，常常要对问题的来源是家长还是孩子的用一个定性而耽误时间。按照发展心理学
+							 的研究方向，为了使解决的问题更加清晰明朗化，我们按照自然人的常规生物特性，做出分类。
+							 的确我们做过调查，很多人认为心理咨询师就是解决平常人情感问题，这是片面理解。心理学归
+							 总到底 是研究人脑的活动的真实科学。作为成人阶段的人脑活动是有别于儿童期的，按照常规的
+							 生物发展规律，我们系统为你专门提供了成人论坛，成人系统内部新闻，你可以进入成人论坛进行问题解答。</p>
+						</div>
+						<div class="keffiyeh">
+							<p>如何理解儿童系统中的分类?</p>
+						</div>
+						<div class="butcher">
+							<p>将儿童系统作为单独的一个版块，让未成年人的权利得到合法化的保证，做出了这个单独分类，在儿童系统里，你可以看到 
+							儿童个人帮助, 儿童情感转移, 儿童团体帮助, 儿童文体艺培养 儿童个人帮助是指个体儿童有别与正常化儿童的帮助，比如自
+							闭症儿童。儿童团体帮助是指学校开展的例如团体沙盘，提高孩子团体合作精神等系列的活动。儿童情感转移多指商家发布的
+							属于正常儿童参与的非物质的活动。儿童文体艺是指一些教育机构发布的针对孩子特殊爱好培养的课程活动。</p>
+						</div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+ <script src="js/easyResponsiveTabs.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#horizontalTab').easyResponsiveTabs({
+				type: 'default', //Types: default, vertical, accordion           
+				width: 'auto', //auto or any width like 600px
+				fit: true   // 100% fit in a container
+			});
+		});
+	   </script>
+<!-- //activities -->
+<!-- our-childrens -->
+	<div id="childrens" class="our-childrens">
+		<div class="container">
+			<h3>我们的孩子</h3>
+			<div class="our-childrens-grids">
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/3.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/3.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img  class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>关于罗瑞洁</h4>
+									<p>我是罗瑞洁，今年2岁，正在参加宝宝方位感训练。
+										<span>SOULCASTLE</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 our-childrens-grid">
+				  <a href="images/4.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/4.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>关于金星星</h4>
+									<p>我是金星星，今天5岁，老师说我跳舞能考到5级。我已经完成了基本级别的舞蹈训练。
+										<span>SOULCASTLE</span></p>
+								</div>
+							</h2>
+						</div>
+					</a></div>
+					
+					
+					<div class="col-md-3 our-childrens-grid">
+				  <a href="images/5.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/5.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>关于周海周洋</h4>
+									<p>我们是周海，周洋。洋洋是我的双胞胎妹妹，我们一起在学习跆拳道。感兴趣的朋友欢迎认识我们。
+										<span>SOULCASTLE</span></p>
+								</div>
+							</h2>
+						</div>
+					</a></div>
+					
+						<div class="col-md-3 our-childrens-grid">
+				  <a href="images/6.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/6.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>关于震远明</h4>
+									<p>我是震远明，从小跟着奶奶长大，爷爷奶奶都很疼我，但发现我天生胆怯。现在我在参加小战士特训活动，我是团长。
+										<span>SOULCASTLE</span></p>
+								</div>
+							</h2>
+						</div>
+					</a></div>
+					
+					
+					
+				<div class="clearfix"> </div>
+			</div>
+			<div class="our-childrens-grids">
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/7.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/7.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>关于薛鑫</h4>
+									<p>我是薛鑫.我的珠心算已经学到算千位数了，梦想是成为数学家。
+										<span>SOULCASTLE</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/8.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/8.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>关于苹果妹</h4>
+									<p>我是苹果妹，今年10岁，我最喜欢下围棋，正在和小伙伴一起进步。
+										<span>SOULCASTLE</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/9.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/9.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>关于青苹果组合</h4>
+									<p>大家好，我们是青苹果组合，我们自编乐队，已经在多个社区进行了演出，别看我们平均年龄不超过17岁，我们来自不同学校
+										<span>SOULCASTLE</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 our-childrens-grid">
+					<a href="images/10.jpg" class="b-link-stripe b-animate-go   swipebox"  title="">
+						<img class="one" src="images/10.jpg" alt=" " title="Science Laboratory" />
+						<div class="b-wrapper">
+							<h2 class="b-animate b-from-left    b-delay03 ">
+								
+								<div class="text-info">
+								<img class="img-responsive" src="images/eye.png" class="zoom" alt=""/>
+									<h4>关于儿童毛衣设计比赛</h4>
+									<p>我们是儿童毛衣设计比赛的获胜者。
+										<span>SOULCASLTE</span></p>
+								</div>
+							</h2>
+						</div>
+					</a>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<link rel="stylesheet" href="css/swipebox.css">
+				<script src="js/jquery.swipebox.min.js"></script> 
+					<script type="text/javascript">
+						jQuery(function($) {
+							$(".swipebox").swipebox();
+						});
+					</script>
+<!-- //our-childrens -->	
+
+<!-- team -->
+	<div id="team" class="team">
+		<div class="container">
+			<h3>自助查询</h3>
+			<div class="team-grids">
+			  <div class="col-md-3 team-grid">
+				<div class="thumbnail team-grid-main">
+				  <img src="images/12.jpg" alt=" " />
+				  <div class="caption pretium">
+					<h4>在此为你匹配咨询师</h4>
+					<p class="founder">请填写你孩子的气质类型，如若不知，去测试</p>
+					<p><a hidefocus="true" class="link-h" href="https://www.raventest.net/" target="_self">瑞文智力测试</a> </p>
+					<p><a hidefocus="true" class="link-h" href="..\..\shijuan1.aspx" target="_self"> 气质特性测试 </a></p>
+					<ul>
+						<li><a href="#" class="qq"> </a></li>
+						<li><a href="#" class="twitter"> </a></li>
+						<li><a href="#" class="g-plus"> </a></li>
+						<li><a href="#" class="in"> </a></li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+			   <div class="col-md-3 team-grid">
+					<div class="thumbnail team-grid-main">
+				  <img src="images/13.jpg" alt=" " />
+				
+				</div>
+			   </div>
+			  
+			   
+			   <div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //team -->
+<!-- liton -->
+	<div class="liton">
+		<div class="container">
+		  <div class="lton-inf">
+			<div class="wmuSlider example1">
+			   <div class="wmuSliderWrapper">
+				   <article style="position: absolute; width: 100%; opacity: 0;"> 
+					<div class="banner-wrap">
+						<div class="liton-inf">
+							<div class="liton-fig">
+								<span>SOULCASTLE特级教师推荐 </span>
+							</div>
+							<div class="liton-info">
+								<h3>李明月</h3>
+								<p>咨询师 李老师</p>
+							</div>
+							<p class="tortor">从事儿童心理教育多年，深知儿童心理特性，与多个学校合作开展过儿童团体沙盘实验。深受校方好评。
+								</p>
+						</div>
+					</div>
+					</article>
+					<article style="position: absolute; width: 100%; opacity: 0;"> 
+						<div class="banner-wrap">
+						<div class="liton-inf">
+							<div class="liton-fig1">
+								<span> SOULCASTLE特级教师推荐</span>
+							</div>
+							<div class="liton-info">
+								<h3>何明达</h3>
+								<p>小学体育老师</p>
+							</div>
+							<p class="tortor">小孩兵乓球训练，羽毛球训练，游泳训练</p>
+						</div>
+						</div>
+					</article>
+					<article style="position: absolute; width: 100%; opacity: 0;"> 
+						<div class="banner-wrap">
+						<div class="liton-inf">
+							<div class="liton-fig2">
+								<span>SOULCASTLE特级教师推荐 </span>
+							</div>
+							<div class="liton-info">
+								<h3>周克娟</h3>
+								<p>中学音乐教师</p>
+							</div>
+							<p class="tortor">民乐，流行乐，琵琶乐器训练</p>
+						</div>
+						</div>
+					</article>
+					    <ul class="wmuSliderPagination">
+							<li><a href="#" class="">0</a></li>
+							<li><a href="#" class="">1</a></li>
+							<li><a href="#" class="wmuActive">2</a></li>
+						</ul>
+            </div>
+					<script src="js/jquery.wmuSlider.js"></script> 
+					  <script>
+						$('.example1').wmuSlider();         
+					 </script> 	  
+				</div>
+			</div>
+		  </div>
+	</div>
+<!-- //liton -->
+<!-- news -->
+	<div id="news" class="news">
+		<div class="container">
+			<h3>儿童新闻</h3>
+			<div class="news-grids">
+				<div class="col-md-5 news-grid">
+					<div class="news-grd">
+						<img src="images/15.jpg" alt=" " />
+						<div class="video">
+							<a href="../news/childnews.html"><img src="images/8.png" alt=" " /></a>
+						</div>
+					</div>
+					<div class="news-grd-text">
+						<p class="date">25 MAY 2015</p>
+						<h4>兴趣是最好的老师</h4>
+						<p class="children">综观古今中外的无数伟人，不论是思想深邃、
+						忠贞不渝的政治家，还是厉兵秣马、久经沙场的军事家，他们都有一个
+						共同的特点，那就是：兴趣爱好广泛，精神生活丰富。马克思不仅喜欢击
+						剑，更酷爱文学艺术，他能背诵海涅、歌德等著名诗人的许多著名诗篇；
+						列宁喜欢读书、滑雪、打猎、下棋……
+</p>
+						<div class="more1">
+							<a href="../news/newspage/newscontent/兴趣是最好的老师.html" class="hvr-bounce-to-right">阅读更多</a>
+						</div>
+						<div class="edit">
+							<p>SOULCASLTE</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-7 news-grid">
+					<div class="news-income">
+						<div class="news-grid-left">
+							<img class="steel" src="images/16.jpg" alt=" " />
+							<div class="gallery">
+								<a href="#"><img src="images/9.png" alt=" " /></a>
+							</div>
+						</div>
+						<div class="news-grid-right">
+							<div class="news-grd-text1">
+								<p class="date">01 DECEMBER 2014</p>
+								<h4>色彩对儿童的影响</h4>
+								<p class="children">颜色对一个人是多么重要啊，它在我们的生活中无处不在，它影响到人的衣着、
+								居室布置、对生活用品的选择等等。好的色彩感觉能提高人的生活品位，从两岁多爸妈们就可以和宝宝
+								一起玩颜色，让宝宝在涂画中培养色彩感觉，同时也能培养宝宝的绘画兴趣!单纯的色彩感受宝宝最初接
+								触色彩的时候，不要把一整盒的颜色推到宝宝面前，那只会让宝宝盲目乱涂，把颜色一种一种试涂一遍，
+								最后变成像灰泥一样的大色块!这样宝宝还是不了解色彩，爸妈要有计划地陪宝宝玩颜色。
+
+</p>
+								<div class="more1">
+									<a href="../news/newspage/newscontent/色彩对儿童的影响.html" class="hvr-bounce-to-right">阅读更多</a>
+								</div>
+								<div class="edit">
+									<p>SOULCASTLE</p>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="news-income">
+						<div class="news-grid-left">
+							<img class="steel" src="images/17.jpg" alt=" " />
+							<div class="gallery">
+								<a href="#"><img src="images/10.png" alt=" " /></a>
+							</div>
+						</div>
+						<div class="news-grid-right">
+							<div class="news-grd-text1">
+								<p class="date">03 NOVEMBER 2014</p>
+								<h4>教育专家的教子手记：好妈妈胜过好老师</h4>
+								<p class="children">习惯的重要性并不止于习惯的执行和动作方面，习惯还指培养理智的和情感的倾向，
+								以及增加动作的轻松、经济和效率。” “陪”所制造的习惯，只是肢体上的；“不陪”才给孩子留下了让习惯
+								在内心生长的空间。“陪”与其说在帮助孩子，不如说是在给他制造麻烦。很多媒体、教师或“教育专家”都
+								在建议家长应每天陪着孩子写作业，这种说法不知他们是怎么想出来的。一个人，首先是个自由的人，才
+								可能成为一个自觉的人。
+</p>
+								<div class="more1">
+									<a href="../news/newspage/newscontent/好妈妈胜过好老师.html" class="hvr-bounce-to-right">阅读更多</a>
+								</div>
+								<div class="edit">
+									<p>SOULCASTLE心灵之家新闻</p>
+								</div>
+							</div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+<!-- //news -->
+<!-- contact -->
+	<div id="contact" class="contact" >
+		<div class="container">
+			<div class="contact-header">
+				<h3>联系我们</h3>
+			
+				
+							<h4>SOULCASTLE心灵之家心理咨询平台</h4>
+							<p>企业邮箱：bosswln@soulcastle.net
+								<span>联系QQ；694092526</span>
+								
+								     <p><a href="http://wpa.qq.com/msgrd?v=3&uin=804032583&site=qq&menu=yes" target="_blank">
+									 <img src="CHange/ppac.gif" alt="在线客服1" width="93" height="28" border="0">
+									 </a> <span class="style6">在线客服1</span></p>
+								
+								</p>
+							
+							
+							
+				</div>
+			
+		</div>
+	</div>
+<!-- //contact -->
+
+<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+
+<div class="footer">
+		<div class="container">
+			<div class="footer-grids">
+				<div class="footer-grid-left">
+					<a href="index.html"><img src="images/footer-logo.png" alt=" " /></a>
+					
+			</div>
+				
+				<div class="footer-grid-center">
+					<p>Copyright &copy;成都心灵之家科技有限公司
+            <a href="http://www.cdcredit.gov.cn/www/index.html" class="footer_icon_szgabm" target="_blank" >可信度查询</a> 蜀ICP备15012620号</p>
+				</div>
+					
+			</div>
+		</div>
+	</div>
+
+</body>
+
+<!-- footer -->
+	
+<!-- //footer -->
+</html>

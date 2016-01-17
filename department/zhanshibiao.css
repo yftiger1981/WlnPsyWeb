@@ -1,0 +1,21 @@
+﻿body {
+      color: AppWorkspace;
+      font-family: 'Microsoft YaHei';
+      border-bottom-color: burlywood;
+      font-style: inherit;
+      padding-left:500px;
+      padding-right:100px;
+}
+p {
+    color:green;
+    font-size:30px;
+   font-style:italic;
+   border-color: darkgoldenrod;
+
+}
+
+.button {
+    width:70px;
+    height:30px;
+}
+

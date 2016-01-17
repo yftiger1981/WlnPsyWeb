@@ -1,0 +1,213 @@
+﻿/*****************************************
+* 名 称：login.css
+* 作 者：cdfxrenze
+* 日 期：2015-06-24
+* 版 本：1.2
+* 概 要：加油站综合服务平台-登陆页面主要样式
+*****************************************/
+*{margin:0;padding:0;list-style:none;border-collapse:collapse;}
+img{border:0;}
+
+.clr{clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.tlr{text-align:center;}
+.tl{text-align:left;}
+.tr{text-align:right;}
+
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+
+ul {list-style-type: none;}
+
+body{
+	font-family:"微软雅黑","黑体","宋体";
+	
+}
+#sytopBar {
+	height:20%;
+	width:100%;
+	position:absolute;
+	left:0;
+}
+.toplogoimg td{
+	padding:0px 0px 20px 220px;
+}
+
+#sywrap {
+	width:100%;
+	position:absolute;
+    overflow:hidden;
+}
+
+
+ p.uname {
+  background: url(../Images/int.png) no-repeat;
+}
+ p.uname, p.pwd, p.yzm {
+  height: 42px;
+  width: 400px;
+  cursor: text;
+  font-size: 14px;
+  padding-left: 35px;
+}
+p.pwd {
+  background: url(../Images/inp.png) no-repeat;
+}
+p.uname, p.pwd, p.yzm {
+  height: 42px;
+  width: 400px;
+  cursor: text;
+  font-size: 14px;
+  padding-left: 35px;
+}
+
+p.code {
+  background: url(../Images/inpt.png) no-repeat;
+}
+
+.VCode {
+  height: 42px!important;
+  width: 130px;
+  cursor: text;
+  font-size: 14px;
+
+}
+
+.VCode-input{ margin-left:35px; height:35px!important;}
+.login-input{ width:290px; height:32px; margin-top:4px; border:none; background:none; font-size:14px; line-height:32px; outline:none; }
+.login-main{ margin-top:20px;}
+.login-main td{ padding:5px 0px;}
+
+
+
+/*首页滚动部分图片CSS*/
+        .cxslide {
+            overflow: hidden;
+            position: relative;
+        }
+            .cxslide .box {
+                overflow: hidden;
+                position: relative;
+            }
+            .cxslide .list {
+                overflow: hidden;
+                width: 9999px;
+            }
+                .cxslide .list ul {list-style-type: none;}
+                    .cxslide .list li {
+                        float: left;
+                        position: relative;
+                    }
+                .cxslide .list img {
+                    vertical-align: top;
+                }
+
+            /* 数字切换按钮样式 */
+            .cxslide .btn{overflow:hidden;position:absolute;bottom:4px;left:400px;}
+            .cxslide .btn li{float:left;width:20px;height:20px;margin:0 0 0 10px; background:url(../Images/dot.png) no-repeat; border:none; text-align:center;cursor:pointer; font-size:0px!important; }
+            .cxslide .btn .selected{background:url(../Images/doth.png) no-repeat; border:none; font-size:0px!important;}
+
+            /* 左右切换按钮样式 */
+            .cxslide .minus, .cxslide .plus {
+                position: absolute;
+                top: 50%;
+                width: 40px;
+                height: 50px;
+                background-image: url(../Images/control.png);
+                background-repeat: no-repeat;
+                text-align: center;
+                cursor: pointer;
+            }
+            .cxslide .minus {
+                left: 0;
+                background-position: 0 0;
+            }
+            .cxslide .plus {
+                right: 0;
+                background-position: -40px 0;
+            }
+            .cxslide .minus:hover {
+                background-position: 0 -50px;
+            }
+            .cxslide .plus:hover {
+                background-position: -40px -50px;
+            }
+
+#systateBar {
+	width:100%;
+	height:23%;
+	left:0;
+	bottom:0;
+    position:fixed;
+    z-index:5555;
+}
+/*页面最底部信息CSS*/
+.footer{
+    width:auto;
+    font-size: 14px;
+    margin-top:20px;
+    color: #716f6f;
+    text-align:center;
+}
+
+
+.subMenu {
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+  position:absolute;
+  z-index:999;
+  top:0;
+  width:100%;
+  left:0;
+}
+.subMenu li {
+  font-size: 16px;
+  color: #3d3d3d;
+  font-weight: 700;
+  padding-left: 35px;
+  text-align: left;
+  background: url(../Images/noc.png) repeat-x;
+}
+
+.subBoth{ height:50px;}
+.loginbox{
+	background:url(../Images/pbg.png);
+	border:1px solid rgba(255,255,255,0.2);
+	width:330px;
+	padding:0px 30px 10px 30px;
+	position:absolute;
+	right:9%;
+	top:8%;
+	color:#fff;
+	
+	
+}
+.loginbox h1{
+	font-size:18px;
+	padding:0 0 10px 0;
+	border-bottom:1px solid rgba(255,255,255,0.1);
+	margin-bottom:20px;
+}
+
+.loginbox .form-group{
+	margin:30px 0;	
+}
+.loginbtn{
+	background:url(../Images/btbg.jpg) repeat-x;
+	border:1px solid #FF8606;
+	height:46px;
+	line-height:46px;
+	text-align:center;
+	width:76%;
+	font-size:18px;
+	display:block;
+	color:#FFF;
+	letter-spacing:2px;
+}
+.loginbtn:hover{
+	opacity:0.9;	
+}
+
+

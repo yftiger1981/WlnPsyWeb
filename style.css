@@ -1,0 +1,85 @@
+﻿body {
+}
+.button {
+    width:70px;
+    height:30px;
+}
+p {
+    font:400;
+    font-family:initial;
+    color:#666600;
+}
+a {
+    font:400;
+    font-family:Arial
+    color:blue;
+}
+.textbox {
+    width:150px;
+    height:20px;
+}
+.IntroTextBox {
+    border-width: medium;
+    width:200px;
+    height:150px;
+    margin-left: 0px;
+}
+.ActiveTextBox {
+    width:350px;
+    height:100px
+}
+h1 {
+    text-align:center;
+    color:white;
+}
+h2 {
+     text-align:center;
+     color:#24622D;
+}
+.head {
+    background-image:url("~/Imagescom/qiuzhuzhezhuce.jpg");
+    background:no-repeat #cccccc;
+    text-align:center;
+    font-size:xx-large;
+    color:red;
+    font-weight:bold;
+}
+.foot {
+    text-align:center;
+    font-size:medium;
+    color:red;
+}
+
+.text
+{
+    text-align:left;
+    font-size:large;
+    color:#330033;
+}
+.image {
+    width:100px;
+    height:100px;
+}
+
+.sortasc-header a
+{ 
+   background-image:url("~/Images/up.jpg");
+   font-style:italic;
+}
+.sortdesc-header a
+{
+   background:url(~/Images/down.jpg) right center no-repeat;
+   font-style:italic;
+}
+
+.myCalender {
+ border:1px solid #646464;  
+ background-color:blue;  
+ color: red;
+}
+
+
+th a
+{
+   padding-right: 20px;
+}

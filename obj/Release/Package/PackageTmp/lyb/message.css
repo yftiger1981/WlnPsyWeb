@@ -1,0 +1,160 @@
+body
+{
+	background-image :url(images/BACKGRD.gif);
+	SCROLLBAR-FACE-COLOR: #eeede8; MARGIN: 0px; SCROLLBAR-HIGHLIGHT-COLOR: #cfcdbc; BORDER-LEFT: #cfcdbc 0px solid; SCROLLBAR-SHADOW-COLOR: #cfcdbc; COLOR: #000000; SCROLLBAR-3DLIGHT-COLOR: #ffffff; SCROLLBAR-ARROW-COLOR: #000000; SCROLLBAR-TRACK-COLOR: #ffffff; BORDER-BOTTOM: #cfcdbc 0px solid; SCROLLBAR-DARKSHADOW-COLOR: #eeede8; SCROLLBAR-BASE-COLOR: #eaf2ff;
+	font-family:宋体; font-family:9pt;
+}
+A:link 
+{
+	 COLOR: #000000; TEXT-DECORATION: none
+}
+A:active 
+{
+	 COLOR: #333333; TEXT-DECORATION: underline 
+}
+A:visited 
+{
+	 COLOR: #000000; TEXT-DECORATION: none 
+}
+A:hover 
+{
+	 COLOR: #ff0000; TEXT-DECORATION: underline 
+}
+.cellheard
+{	
+	font-family:宋体; 
+	font-size :12pt; 
+	font-weight :bold; 
+	text-align :center ;
+	vertical-align:middle;
+}
+.cellfoot
+{
+	font-family:宋体 ; font-size :9pt; font-weight :lighter; text-align :center ;
+}
+.Gtableone
+{
+	border-color:#90ee90; border-style :solid ; border-width :1px; width :760px; 
+}
+.Gcell1
+{
+	 width :160px; font-family :宋体 ; font-size :9pt; text-align :center; vertical-align:top;
+	 border-right-color:#90ee90 ; border-right-style :solid ; border-right-width :1px;
+}
+.Gcell2
+{
+	
+	border-right-color:#90ee90 ; border-right-style :solid ; border-right-width :1px;
+}
+.Gcell3
+{
+	width :600px; font-family :宋体; font-size :9pt;
+}
+.Gtabletwo
+{
+	border-width :0px; border-style :none ; width :600px; height:100%;
+}
+.Gcell4
+{
+	width :580px; height :44px; background-color :#faf0e6; line-height:22pt;
+}
+.Gcell5
+{
+	width :580px; 
+}
+.Gcell6
+{
+	width :600px; height :26px;
+}
+.Gcell4table
+{
+	width :600px; height :44px;
+}
+.Gcell5table
+{
+	width :99%; 
+}
+.Gcell6table
+{
+	width :600px; height :26px;
+}
+.Gcell7
+{
+	font-family :宋体 ; font-size :9pt; background-color :#faf0e6; height :18px;
+}
+.Gcell8
+{
+	font-family :宋体 ; font-size :9pt; background-color :#faf0e6; height :18px;
+}
+.Gcell9
+{
+	font-family :宋体 ; font-size :9pt; background-color :#faf0e6; height :18px;
+}
+.Gcell10
+{
+	font-family :宋体 ; font-size :9pt;background-color :#ffe4b5; height :16px;
+}
+.Gcell11
+{
+	font-family :宋体 ; font-size :9pt;background-color :#faf0e6; vertical-align :middle ; height:22;
+}
+.Gcell12
+{
+	font-family :宋体 ; font-size :9pt; vertical-align :top ;
+}
+.Gcell13
+{
+	font-family :宋体 ; font-size :9pt;
+}
+.Gcell14
+{
+	font-family :宋体 ; font-size :9pt;
+}
+.Gcell15
+{
+	font-family :宋体 ; font-size :9pt; background-color :#ffe4e1;
+}
+.Gcell16
+{
+	font-family :宋体 ; font-size :9pt;  vertical-align :middle ;
+}
+.DDLIST
+{
+	font-family :宋体 ; font-size :9pt;  width :45px;	
+}
+.LINKBUTTON
+{
+	font-family :宋体 ; font-size :9pt;
+}
+.Button {
+	BORDER-RIGHT: #cccccc 1px solid; 
+	BORDER-TOP: #cccccc 1px solid; 
+	FONT-SIZE: 9pt; 
+	BACKGROUND: url(../images/buttom.gif) #e7e7e7; 
+	BORDER-LEFT: #cccccc 1px solid;
+	WIDTH: 50px; height:25px; CURSOR: hand;
+	COLOR: #000000; LINE-HEIGHT: 14pt; 
+	BORDER-BOTTOM: #cccccc 1px solid; 
+	FONT-FAMILY: 宋体,Arial,"Ms Sans Serif";
+	HEIGHT: 18pt;
+}
+.Gcell17
+{
+	 width :100px; font-family :宋体 ; font-size :9pt; text-align :right ; height :33px;
+}
+.Gcell18
+{
+	 width :300px; font-family :宋体 ; font-size :9pt; text-align :left; height :33px;
+}
+.TextBoxs
+{
+	border-style:solid ; border-width :1px;font-family :宋体 ; font-size :9pt;
+}
+.FontLeft9pt
+{
+	font-family :宋体; font-size :9pt; text-align:left;
+}
+.FontCenter9pt
+{
+	 font-family :宋体 ; font-size :9pt; text-align :center ;	
+}

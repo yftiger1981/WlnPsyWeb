@@ -1,0 +1,24 @@
+﻿h3
+{
+font:300;
+color:blue;
+}
+p {
+    font:200;
+    color:blue;
+}
+.imagebutton{
+    border-style: none;
+    border-color: inherit;
+    border-width: thin;
+    color:blue;
+    }
+.font1 {
+font:300;
+color:blue;
+}
+h1 {
+color:lightgray;
+font:500px;
+}
+

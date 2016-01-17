@@ -1,0 +1,15 @@
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\bin\WebApplication2.dll.config
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\bin\WebApplication2.dll
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\bin\WebApplication2.pdb
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\obj\Release\wlnwebsite.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\obj\Release\MessageBor.Addmsg.resources
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\obj\Release\MessageBor.Adminhf.resources
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\obj\Release\MessageBor.MessageBoard.download.resources
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\obj\Release\MessageBor.Global.resources
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\obj\Release\MessageBor.home.resources
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\obj\Release\MessageBor.index.resources
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\obj\Release\MessageBor.Login_M.resources
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\obj\Release\MessageBor.ModifyPass.resources
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\obj\Release\wlnwebsite.csproj.GenerateResource.Cache
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\obj\Release\WebApplication2.dll
+C:\Users\Administrator\Source\Repos\wlnwebsitenew\wln\wlnwebsite\obj\Release\WebApplication2.pdb

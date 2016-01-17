@@ -1,0 +1,23 @@
+﻿1>------ 已启动全部重新生成: 项目: wlnwebsite, 配置: Debug Any CPU ------
+1>F:\wln\psyweb\lyb\Adminhf.aspx.cs(157,5,157,53): warning CS0618: 'OleDbParameterCollection.Add(string, object)' is obsolete: 'Add(String parameterName, Object value) has been deprecated.  Use AddWithValue(String parameterName, Object value).  http://go.microsoft.com/fwlink/?linkid=14202'
+1>F:\wln\psyweb\lyb\Adminhf.aspx.cs(158,5,158,59): warning CS0618: 'OleDbParameterCollection.Add(string, object)' is obsolete: 'Add(String parameterName, Object value) has been deprecated.  Use AddWithValue(String parameterName, Object value).  http://go.microsoft.com/fwlink/?linkid=14202'
+1>F:\wln\psyweb\lyb\clsMain.cs(46,25,46,27): warning CS0168: The variable 'Ex' is declared but never used
+1>F:\wln\psyweb\lyb\home.aspx.cs(48,4,48,24): warning CS0618: 'Page.SmartNavigation' is obsolete: 'The recommended alternative is Page.SetFocus and Page.MaintainScrollPositionOnPostBack. http://go.microsoft.com/fwlink/?linkid=14202'
+1>F:\wln\psyweb\regist.aspx.cs(94,30,94,32): warning CS0168: The variable 'ex' is declared but never used
+1>F:\wln\psyweb\lyb\UserParameters.cs(37,43,37,76): warning CS0618: 'ConfigurationSettings.AppSettings' is obsolete: 'This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings'
+1>F:\wln\psyweb\lyb\UserParameters.cs(82,5,82,53): warning CS0618: 'SqlParameterCollection.Add(string, object)' is obsolete: 'Add(String parameterName, Object value) has been deprecated.  Use AddWithValue(String parameterName, Object value).  http://go.microsoft.com/fwlink/?linkid=14202'
+1>F:\wln\psyweb\lyb\ZhNetLibrary.cs(58,31,58,64): warning CS0618: 'ConfigurationSettings.AppSettings' is obsolete: 'This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings'
+1>F:\wln\psyweb\lyb\ZhNetLibrary.cs(60,31,60,64): warning CS0618: 'ConfigurationSettings.AppSettings' is obsolete: 'This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings'
+1>F:\wln\psyweb\lyb\UserParameters.cs(121,5,121,53): warning CS0618: 'OleDbParameterCollection.Add(string, object)' is obsolete: 'Add(String parameterName, Object value) has been deprecated.  Use AddWithValue(String parameterName, Object value).  http://go.microsoft.com/fwlink/?linkid=14202'
+1>F:\wln\psyweb\lyb\ZhNetLibrary.cs(166,6,166,54): warning CS0618: 'SqlParameterCollection.Add(string, object)' is obsolete: 'Add(String parameterName, Object value) has been deprecated.  Use AddWithValue(String parameterName, Object value).  http://go.microsoft.com/fwlink/?linkid=14202'
+1>F:\wln\psyweb\clients\HelperRegister.aspx.cs(107,30,107,32): warning CS0168: The variable 'ex' is declared but never used
+1>F:\wln\psyweb\lyb\ZhNetLibrary.cs(869,44,869,77): warning CS0618: 'ConfigurationSettings.AppSettings' is obsolete: 'This method is obsolete, it has been replaced by System.Configuration!System.Configuration.ConfigurationManager.AppSettings'
+1>F:\wln\psyweb\consulters\consulterRegister.aspx.cs(106,34,106,36): warning CS0168: The variable 'ex' is declared but never used
+1>F:\wln\psyweb\consulters\consulterRegister.aspx.cs(137,34,137,36): warning CS0168: The variable 'ex' is declared but never used
+1>F:\wln\psyweb\consulters\consulterModify.aspx.cs(120,34,120,36): warning CS0168: The variable 'e2' is declared but never used
+1>F:\wln\psyweb\consulters\consulterModify.aspx.cs(186,30,186,32): warning CS0168: The variable 'e1' is declared but never used
+1>F:\wln\psyweb\consulters\consulterModify.aspx.cs(210,29,210,31): warning CS0168: The variable 'e3' is declared but never used
+1>F:\wln\psyweb\changepassword\Passwordrecovery.aspx.cs(52,34,52,36): warning CS0168: The variable 'ex' is declared but never used
+1>F:\wln\psyweb\content.aspx.cs(49,38,49,40): warning CS0168: The variable 'e1' is declared but never used
+1>  wlnwebsite -> F:\wln\psyweb\bin\WebApplication2.dll
+========== 全部重新生成: 成功 1 个，失败 0 个，跳过 0 个 ==========

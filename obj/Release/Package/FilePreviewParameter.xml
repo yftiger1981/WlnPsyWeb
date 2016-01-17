@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="payweb2" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Administrator\\Source\\Repos\\wlnwebsitenew\\wln\\wlnwebsite\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Administrator\\Source\\Repos\\wlnwebsitenew\\wln\\wlnwebsite\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="websiteConnectionStringhome-Web.config Connection String" description="" value="Data Source=tcp:glbwnhr68m.database.chinacloudapi.cn,1433;Initial Catalog=payweb2server;User Id=yftiger1981@glbwnhr68m;Password=Kris2008" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Administrator\\Source\\Repos\\wlnwebsitenew\\wln\\wlnwebsite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='websiteConnectionStringhome']/@connectionString" />
+  </parameter>
+  <parameter name="websiteConnectionString-Web.config Connection String" description="websiteConnectionString 由应用程序在 web.config 中用来访问数据库的连接字符串。" value="Data Source=|DataDirectory|\website.mdf;Integrated Security=SSPI" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Administrator\\Source\\Repos\\wlnwebsitenew\\wln\\wlnwebsite\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='websiteConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

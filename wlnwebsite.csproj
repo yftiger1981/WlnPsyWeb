@@ -1,0 +1,1672 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7567F0D1-7639-4AB7-BF7C-8CDB88D5D49D}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication2</RootNamespace>
+    <AssemblyName>WebApplication2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=15.1.4.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Users\fan\Documents\ASP.NET AJAX Control Toolkit\Bin\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNetPager, Version=7.2.0.0, Culture=neutral, PublicKeyToken=fb0a0fe055d40fd4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AspNetPager.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Entity.Design" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Web.Entity.Design" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="adultsystem\adultimages\adulthostpage_01.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_02.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_03.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_04.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_05.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_06.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_07.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_08.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_09.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_10.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_11.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_12g.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_13.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_15.gif" />
+    <Content Include="adultsystem\adultimages\adulthostpage_16.gif" />
+    <Content Include="adultsystem\adultimages\bigbirdmoving.gif" />
+    <Content Include="adultsystem\adultimages\light.gif" />
+    <Content Include="adultsystem\adultimages\spacer.gif" />
+    <Content Include="bin\AspNetPager.dll" />
+    <Content Include="bussiness\AddActive.aspx" />
+    <Content Include="bussiness\bussinessModify.aspx" />
+    <Content Include="clients\helperRegistSuc.aspx" />
+    <Content Include="clients\HelperModify.aspx" />
+    <Content Include="ConsulterImages\default.png" />
+    <Content Include="consulters\contentsList.aspx" />
+    <Content Include="content.aspx" />
+    <Content Include="adultsystem\家庭系列活动.htm" />
+    <Content Include="adultsystem\成人个人帮助.htm" />
+    <Content Include="adultsystem\成人咨询室.htm" />
+    <Content Include="adultsystem\成人团体帮助.htm" />
+    <Content Include="adultsystem\成人用户论坛\lttan12c.png" />
+    <Content Include="adultsystem\成人用户论坛\lttanc.png" />
+    <Content Include="adultsystem\成人用户论坛\lttanlatitudec.png" />
+    <Content Include="App_Data\website.mdf" />
+    <Content Include="App_Data\website_log.ldf">
+      <DependentUpon>website.mdf</DependentUpon>
+    </Content>
+    <Content Include="changepassword\Passwordrecovery.aspx" />
+    <Content Include="consulters\consulterModify.aspx" />
+    <Content Include="consulters\registSuccess.aspx" />
+    <Content Include="Css\Login\Images\alpha_bg.png" />
+    <Content Include="Css\Login\Images\bg1.jpg" />
+    <Content Include="Css\Login\Images\bg2.jpg" />
+    <Content Include="Css\Login\Images\bg3.jpg" />
+    <Content Include="Css\Login\Images\btbg.jpg" />
+    <Content Include="Css\Login\Images\control.png" />
+    <Content Include="Css\Login\Images\dot.png" />
+    <Content Include="Css\Login\Images\doth.png" />
+    <Content Include="Css\Login\Images\inp.png" />
+    <Content Include="Css\Login\Images\inpt.png" />
+    <Content Include="Css\Login\Images\int.png" />
+    <Content Include="Css\Login\Images\logo.png" />
+    <Content Include="Css\Login\Images\noc.png" />
+    <Content Include="Css\Login\Images\pbg.png" />
+    <Content Include="Css\Login\Style\Login.css" />
+    <Content Include="department\consulterBussinessInfo.html" />
+    <Content Include="department\bussinessDetail.aspx" />
+    <Content Include="department\complete.js" />
+    <Content Include="department\department.css" />
+    <Content Include="department\department.js" />
+    <Content Include="department\consulterDetail.aspx" />
+    <Content Include="department\frame.png" />
+    <Content Include="department\images\arrow.gif" />
+    <Content Include="department\images\arrow2.gif" />
+    <Content Include="department\images\arrow2_hover.gif" />
+    <Content Include="department\images\logodid.gif" />
+    <Content Include="department\images\mid_panel_bg.gif" />
+    <Content Include="department\images\ppa.gif" />
+    <Content Include="department\images\ppac.gif" />
+    <Content Include="department\images\right_text_bot_bg.gif" />
+    <Content Include="department\images\servicesoverview.jpg" />
+    <Content Include="department\images\service_icon.gif" />
+    <Content Include="department\images\star_3.gif" />
+    <Content Include="department\images\star_4.gif" />
+    <Content Include="department\images\story_icon.gif" />
+    <Content Include="department\jquery.js" />
+    <Content Include="department\photos\0000001.jpg" />
+    <Content Include="department\photos\004_001.JPG" />
+    <Content Include="department\photos\005.JPG" />
+    <Content Include="department\photos\006.JPG" />
+    <Content Include="department\photos\008.JPG" />
+    <Content Include="department\photos\010.JPG" />
+    <Content Include="department\photos\01070131.JPG" />
+    <Content Include="department\photos\012.JPG" />
+    <Content Include="department\photos\0123_1922.jpg" />
+    <Content Include="department\photos\013.JPG" />
+    <Content Include="department\photos\014.JPG" />
+    <Content Include="department\photos\015.JPG" />
+    <Content Include="department\photos\016.JPG" />
+    <Content Include="department\photos\017.JPG" />
+    <Content Include="department\photos\019.JPG" />
+    <Content Include="department\photos\024.JPG" />
+    <Content Include="department\photos\100B6022.JPG" />
+    <Content Include="department\photos\100B6081.JPG" />
+    <Content Include="department\photos\100B6201.JPG" />
+    <Content Include="department\photos\100_0207.JPG" />
+    <Content Include="department\photos\100_6083.JPG" />
+    <Content Include="department\photos\100_6140.JPG" />
+    <Content Include="department\photos\1Mn_3_.jpg" />
+    <Content Include="department\photos\2004_1009clouds0014.JPG" />
+    <Content Include="department\photos\2004_1009clouds0015.JPG" />
+    <Content Include="department\photos\2004_1109sky0008.JPG" />
+    <Content Include="department\photos\2004_1119stauton20015.JPG" />
+    <Content Include="department\photos\2005_02192110050006_filtered.jpg" />
+    <Content Include="department\photos\2005_02192110050007_filtered.jpg" />
+    <Content Include="department\photos\2006_0604flowers0003.JPG" />
+    <Content Include="department\photos\2006_0605flowers0001.JPG" />
+    <Content Include="department\photos\2006_0618skys0003.JPG" />
+    <Content Include="department\photos\795040-R1-026-11A_011.jpg" />
+    <Content Include="department\photos\AHonuQueen_sBathAfternoonHonu151.JPG" />
+    <Content Include="department\photos\alaskan_countryside.jpg" />
+    <Content Include="department\photos\AngrySky1.jpg" />
+    <Content Include="department\photos\AngrySky2.jpg" />
+    <Content Include="department\photos\AngrySky3.jpg" />
+    <Content Include="department\photos\AngrySky4.jpg" />
+    <Content Include="department\photos\azsnow.jpg" />
+    <Content Include="department\photos\AZsnowbowl010.jpg" />
+    <Content Include="department\photos\AZsnowbowl020.jpg" />
+    <Content Include="department\photos\BigCloud.jpg" />
+    <Content Include="department\photos\BJclearpics059.jpg" />
+    <Content Include="department\photos\BJpics042.jpg" />
+    <Content Include="department\photos\brisbanesky.jpg" />
+    <Content Include="department\photos\canada031.jpg" />
+    <Content Include="department\photos\canada059.jpg" />
+    <Content Include="department\photos\canada077.jpg" />
+    <Content Include="department\photos\CEP00002.jpg" />
+    <Content Include="department\photos\CEP00007.jpg" />
+    <Content Include="department\photos\CEP00019.jpg" />
+    <Content Include="department\photos\CEP00023.jpg" />
+    <Content Include="department\photos\CEP00024.jpg" />
+    <Content Include="department\photos\CiirusClouds.jpg" />
+    <Content Include="department\photos\ClearingWeather.jpg" />
+    <Content Include="department\photos\ClearingWeather2.jpg" />
+    <Content Include="department\photos\Cloud.jpg" />
+    <Content Include="department\photos\cloud1_1600x1200.jpg" />
+    <Content Include="department\photos\Clouds1.jpg" />
+    <Content Include="department\photos\Clouds2.jpg" />
+    <Content Include="department\photos\Clouds3.jpg" />
+    <Content Include="department\photos\Clouds4.jpg" />
+    <Content Include="department\photos\CloudySun.jpg" />
+    <Content Include="department\photos\cloudy_mountains.jpg" />
+    <Content Include="department\photos\DarkClouds.jpg" />
+    <Content Include="department\photos\dsc00008.jpg" />
+    <Content Include="department\photos\dsc00038.jpg" />
+    <Content Include="department\photos\dsc00039.jpg" />
+    <Content Include="department\photos\dsc00042.jpg" />
+    <Content Include="department\photos\dsc00044.jpg" />
+    <Content Include="department\photos\dsc00060.jpg" />
+    <Content Include="department\photos\DSC01281.JPG" />
+    <Content Include="department\photos\dsc05957.jpg" />
+    <Content Include="department\photos\dsc05970.jpg" />
+    <Content Include="department\photos\dsc07164.jpg" />
+    <Content Include="department\photos\dsc08039.jpg" />
+    <Content Include="department\photos\dsc08702.jpg" />
+    <Content Include="department\photos\dsc20040321_182027_38.jpg" />
+    <Content Include="department\photos\dsc20040321_182330_51.jpg" />
+    <Content Include="department\photos\dsc20040321_191051_23.jpg" />
+    <Content Include="department\photos\dsc20040917_182327_42.jpg" />
+    <Content Include="department\photos\dsc20040929_100729_24.jpg" />
+    <Content Include="department\photos\dsc20041029_180840_10.jpg" />
+    <Content Include="department\photos\dsc20041029_180848_11.jpg" />
+    <Content Include="department\photos\dsc20041106_142724_31.jpg" />
+    <Content Include="department\photos\dsc20041228_105031_17.jpg" />
+    <Content Include="department\photos\dsc20050107_134656_4.jpg" />
+    <Content Include="department\photos\dsc20050108_183737_27.jpg" />
+    <Content Include="department\photos\dsc20050109_124613_30.jpg" />
+    <Content Include="department\photos\dsc20050110_163519_2.jpg" />
+    <Content Include="department\photos\dsc20050117_060629_5.jpg" />
+    <Content Include="department\photos\dsc20050120_191114_5.jpg" />
+    <Content Include="department\photos\dsc20050209_113317_9.jpg" />
+    <Content Include="department\photos\dsc20050212_185952_2.jpg" />
+    <Content Include="department\photos\dsc20050213_165831_17.jpg" />
+    <Content Include="department\photos\dsc20050214_170917_7.jpg" />
+    <Content Include="department\photos\dsc20050216_191734_33.jpg" />
+    <Content Include="department\photos\dsc20050216_191807_34.jpg" />
+    <Content Include="department\photos\dsc20050220_184718_10.jpg" />
+    <Content Include="department\photos\dsc20050226_191808_1.jpg" />
+    <Content Include="department\photos\dsc20050302_154616_8.jpg" />
+    <Content Include="department\photos\dsc20050312_185316_7.jpg" />
+    <Content Include="department\photos\dsc20050313_145704_48.jpg" />
+    <Content Include="department\photos\dsc20050313_145723_49.jpg" />
+    <Content Include="department\photos\dsc20050725_153020_11.jpg" />
+    <Content Include="department\photos\dsc20050730_173540_19.jpg" />
+    <Content Include="department\photos\dsc20050807_083252_19.jpg" />
+    <Content Include="department\photos\dsc20050825_170958_15.jpg" />
+    <Content Include="department\photos\dsc20050825_173418_20.jpg" />
+    <Content Include="department\photos\dsc20050825_174544_23.jpg" />
+    <Content Include="department\photos\dsc20050827_101208_1.jpg" />
+    <Content Include="department\photos\dsc20051220_173325_120.jpg" />
+    <Content Include="department\photos\dsc20051220_183927_127.jpg" />
+    <Content Include="department\photos\dsc20051220_184056_129.jpg" />
+    <Content Include="department\photos\DSCF0146.jpg" />
+    <Content Include="department\photos\dscf0188.jpg" />
+    <Content Include="department\photos\dscf0190.jpg" />
+    <Content Include="department\photos\DSCF0674.JPG" />
+    <Content Include="department\photos\DSCF0675.JPG" />
+    <Content Include="department\photos\dscn0519.jpg" />
+    <Content Include="department\photos\dscn0633.jpg" />
+    <Content Include="department\photos\dscn0680.jpg" />
+    <Content Include="department\photos\dscn1180.jpg" />
+    <Content Include="department\photos\dscn1328.jpg" />
+    <Content Include="department\photos\DSC_0007.JPG" />
+    <Content Include="department\photos\dsc_0068.jpg" />
+    <Content Include="department\photos\dsc_0077.jpg" />
+    <Content Include="department\photos\dsc_0080.jpg" />
+    <Content Include="department\photos\dsc_0238b.jpg" />
+    <Content Include="department\photos\dsc_0244a.jpg" />
+    <Content Include="department\photos\dsc_0426.jpg" />
+    <Content Include="department\photos\dsc_0511.jpg" />
+    <Content Include="department\photos\dsc_21070a.jpg" />
+    <Content Include="department\photos\FairWeatherCumulus.jpg" />
+    <Content Include="department\photos\GoldenEvening.jpg" />
+    <Content Include="department\photos\HarvestMoon.jpg" />
+    <Content Include="department\photos\HarvestMoon2.jpg" />
+    <Content Include="department\photos\HazyLandscape.jpg" />
+    <Content Include="department\photos\HazySun.jpg" />
+    <Content Include="department\photos\HPIM0321.jpg" />
+    <Content Include="department\photos\HPIM0323.jpg" />
+    <Content Include="department\photos\HPIM0330.jpg" />
+    <Content Include="department\photos\IMG_0298.JPG" />
+    <Content Include="department\photos\IMG_0708.JPG" />
+    <Content Include="department\photos\IMG_0904.JPG" />
+    <Content Include="department\photos\IMG_1837.jpg" />
+    <Content Include="department\photos\IMG_1842.jpg" />
+    <Content Include="department\photos\IMG_3758.jpg" />
+    <Content Include="department\photos\img_6020.jpg" />
+    <Content Include="department\photos\img_6021.jpg" />
+    <Content Include="department\photos\IMG_6600.JPG" />
+    <Content Include="department\photos\LAandFiji032.jpg" />
+    <Content Include="department\photos\LightingUptheNight.jpg" />
+    <Content Include="department\photos\Lum_sPondSunset.jpg" />
+    <Content Include="department\photos\m1.jpg" />
+    <Content Include="department\photos\m11.jpg" />
+    <Content Include="department\photos\m12.jpg" />
+    <Content Include="department\photos\m4.jpg" />
+    <Content Include="department\photos\mb_002.jpg" />
+    <Content Include="department\photos\mb_005.jpg" />
+    <Content Include="department\photos\michelle_060.jpg" />
+    <Content Include="department\photos\michelle_061.jpg" />
+    <Content Include="department\photos\michelle_156.jpg" />
+    <Content Include="department\photos\michelle_168.jpg" />
+    <Content Include="department\photos\michelle_229.jpg" />
+    <Content Include="department\photos\more_sky_1600x1200.jpg" />
+    <Content Include="department\photos\MountainMorning.jpg" />
+    <Content Include="department\photos\mountains.jpg" />
+    <Content Include="department\photos\OceanHawaiifml_10_.jpg" />
+    <Content Include="department\photos\P1040050.JPG" />
+    <Content Include="department\photos\P3100452.JPG" />
+    <Content Include="department\photos\P3120502.JPG" />
+    <Content Include="department\photos\P5130065.JPG" />
+    <Content Include="department\photos\P5130067.JPG" />
+    <Content Include="department\photos\PICT0004.JPG" />
+    <Content Include="department\photos\PICT0067.jpg" />
+    <Content Include="department\photos\portland_178.jpg" />
+    <Content Include="department\photos\RainClouds.jpg" />
+    <Content Include="department\photos\RainClouds2.jpg" />
+    <Content Include="department\photos\sandia_sunset.jpg" />
+    <Content Include="department\photos\SilhouetteAndTexturedSky.jpg" />
+    <Content Include="department\photos\skyemonroe.jpg" />
+    <Content Include="department\photos\SnowClouds.jpg" />
+    <Content Include="department\photos\SnowClouds2.jpg" />
+    <Content Include="department\photos\sticks_and_clouds.jpg" />
+    <Content Include="department\photos\StormyWeather-DarkClouds.jpg" />
+    <Content Include="department\photos\sun1_1600x1200.jpg" />
+    <Content Include="department\photos\Sunburst.jpg" />
+    <Content Include="department\photos\SunburstOverSnowyHill.jpg" />
+    <Content Include="department\photos\Sunburst_001.jpg" />
+    <Content Include="department\photos\SunriseOverClinchMountain.jpg" />
+    <Content Include="department\photos\SunriseOverClinchMountain_SouthwestVirginia.jpg" />
+    <Content Include="department\photos\sunset.jpg" />
+    <Content Include="department\photos\sunset_ocean_rocks_railroadtracks.jpg" />
+    <Content Include="department\photos\SunThroughTreesAtCopperCreek_SouthwestVirginia.jpg" />
+    <Content Include="department\photos\texas_003.jpg" />
+    <Content Include="department\photos\texas_004.jpg" />
+    <Content Include="department\photos\texas_079.jpg" />
+    <Content Include="department\photos\texas_081.jpg" />
+    <Content Include="department\photos\texas_083.jpg" />
+    <Content Include="department\photos\texas_084.jpg" />
+    <Content Include="department\photos\trees_ocean_sunset.jpg" />
+    <Content Include="department\photos\wallpaper_above_clouds.jpg" />
+    <Content Include="department\photos\wallpaper_between_clouds.jpg" />
+    <Content Include="department\select.js" />
+    <Content Include="department\zhanshibiao.css" />
+    <Content Include="expertintroduction\eintro-CHENZHIXIONG.html" />
+    <Content Include="expertintroduction\eintro-GONGRUILI.html" />
+    <Content Include="expertintroduction\eintro-LINGBINGXIAN.html" />
+    <Content Include="expertintroduction\eintro-LINGZHI.html" />
+    <Content Include="expertintroduction\eintro-LIYUTANG.html" />
+    <Content Include="expertintroduction\eintro-LIZIXING.htm" />
+    <Content Include="expertintroduction\eintro-WANGSHUMING.html" />
+    <Content Include="expertintroduction\eintro-WUQI.html" />
+    <Content Include="expertintroduction\eintro-XIAYALI.html" />
+    <Content Include="expertintroduction\eintro-zhangyijun.htm" />
+    <Content Include="expertintroduction\eintro-ZHOULONGQUAN.html" />
+    <Content Include="expertintroduction\Feintro-Adam Lobel.html" />
+    <Content Include="expertintroduction\Feintro-Clancy Blair.htm" />
+    <Content Include="expertintroduction\Feintro-Daniel Kahneman.htm" />
+    <Content Include="expertintroduction\Feintro-Dorothy Espelage.htm" />
+    <Content Include="expertintroduction\Feintro-Isabela Granic.html" />
+    <Content Include="expertintroduction\Feintro-Roger Walsh.html" />
+    <Content Include="expertintroduction\Feintro-Rutger.html" />
+    <Content Include="expertintroduction\Fexpert-online.html" />
+    <Content Include="expertintroduction\mm_expert1.css" />
+    <Content Include="expertintroduction\mm_product_lg.gif" />
+    <Content Include="expertintroduction\mm_spacer.gif" />
+    <Content Include="expertintroduction\photo\Adam Lobel.png" />
+    <Content Include="expertintroduction\photo\chengzhixiong.jpg" />
+    <Content Include="expertintroduction\photo\clancy Blair.jpg" />
+    <Content Include="expertintroduction\photo\Daniel Kahneman.png" />
+    <Content Include="expertintroduction\photo\Espelage.png" />
+    <Content Include="expertintroduction\photo\GONGLI.png" />
+    <Content Include="expertintroduction\photo\Isabela Granic.png" />
+    <Content Include="expertintroduction\photo\lingbingxian.jpg" />
+    <Content Include="expertintroduction\photo\LINZI.png" />
+    <Content Include="expertintroduction\photo\liuyutang.jpg" />
+    <Content Include="expertintroduction\photo\lizixing.jpg" />
+    <Content Include="expertintroduction\photo\Roger Walsh.png" />
+    <Content Include="expertintroduction\photo\Rutger C.M.E.Engels.png" />
+    <Content Include="expertintroduction\photo\wangshuming.jpg" />
+    <Content Include="expertintroduction\photo\wuqi.jpg" />
+    <Content Include="expertintroduction\photo\xiayali.jpg" />
+    <Content Include="expertintroduction\photo\zhangyijun.jpg" />
+    <Content Include="expertintroduction\photo\zhoulongquan.jpg" />
+    <Content Include="expertintroduction\心理咨询师验证方法.html" />
+    <Content Include="Imagescom\lttan12c.png" />
+    <Content Include="Imagescom\lttanc.png" />
+    <Content Include="Imagescom\lttanlatitudec.png" />
+    <Content Include="adultsystem\成人用户论坛\Sandcastle.png" />
+    <Content Include="adultsystem\成人用户论坛\成人用户.htm" />
+    <Content Include="adultsystem\成人用户论坛\成人论坛页面.htm" />
+    <Content Include="bin\WebApplication2.dll" />
+    <Content Include="bin\WebApplication2.pdb" />
+    <Content Include="bussiness\bussinessAddActivity.aspx" />
+    <Content Include="bussiness\bussinessprofile.aspx" />
+    <Content Include="changepassword\changePassword.aspx" />
+    <Content Include="childsystem\CHange\childrenhostpage.html" />
+    <Content Include="childsystem\CHange\childrenhostpage_01.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_02.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_03.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_04.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_05.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_06.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_07.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_08.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_09.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_10.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_11.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_12.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_13.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_14.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_15.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_16.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_17.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_18.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_19.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_20.gif" />
+    <Content Include="childsystem\CHange\childrenhostpage_21.gif" />
+    <Content Include="childsystem\CHange\icon.jpg" />
+    <Content Include="childsystem\CHange\lunt.gif" />
+    <Content Include="childsystem\CHange\ppac.gif" />
+    <Content Include="childsystem\CHange\ppi.gif" />
+    <Content Include="childsystem\childrenhostpage.html" />
+    <Content Include="childsystem\儿童个人帮助.htm" />
+    <Content Include="childsystem\儿童团体帮助.htm" />
+    <Content Include="childsystem\儿童情感转移.htm" />
+    <Content Include="childsystem\儿童文体艺培养.htm" />
+    <Content Include="childsystem\儿童用户论坛\lttan.png" />
+    <Content Include="childsystem\儿童用户论坛\lttan12.png" />
+    <Content Include="childsystem\儿童用户论坛\lttanlatitude.png" />
+    <Content Include="childsystem\儿童用户论坛\lttitleright.png" />
+    <Content Include="childsystem\儿童用户论坛\儿童用户页面.htm" />
+    <Content Include="childsystem\儿童用户论坛\儿童论坛页面.htm" />
+    <Content Include="childsystem\儿童用户论坛\注册表单查询页面\MAKESUREzcbd.asp" />
+    <Content Include="childsystem\儿童用户论坛\注册表单查询页面\zcbd.asp" />
+    <Content Include="consulters\consulter.aspx" />
+    <Content Include="consulters\consulterRegister.aspx" />
+    <Content Include="divimage\cr.png" />
+    <Content Include="divimage\etyh.png" />
+    <Content Include="divimage\lfz.png" />
+    <Content Include="divimage\lfzdown.png" />
+    <Content Include="divimage\sj.png" />
+    <Content Include="divimage\sjdown.png" />
+    <Content Include="divimage\wave.png" />
+    <Content Include="divimage\zxs.png" />
+    <Content Include="divimage\zxsdown.png" />
+    <Content Include="divimage\宣传片.swf" />
+    <Content Include="Global.asax" />
+    <Content Include="clients\helperSelection.aspx" />
+    <Content Include="clients\HelperRegister.aspx" />
+    <Content Include="hostpageimages\backgroundx.png" />
+    <Content Include="hostpageimages\bubble.gif" />
+    <Content Include="hostpageimages\butterfly.gif" />
+    <Content Include="hostpageimages\w1.png" />
+    <Content Include="hostpageimages\主业右侧_01.png" />
+    <Content Include="hostpageimages\主业右侧_03.png" />
+    <Content Include="hostpageimages\主页右侧下.png" />
+    <Content Include="hostpageimages\主页右侧下1.png" />
+    <Content Include="hostpageimages\侧页栏2_01.gif" />
+    <Content Include="hostpageimages\侧页栏2_02.gif" />
+    <Content Include="hostpageimages\侧页栏2_025.gif" />
+    <Content Include="hostpageimages\侧页栏2_03.gif" />
+    <Content Include="hostpageimages\侧页栏2_035.gif" />
+    <Content Include="hostpageimages\侧页栏2_04.gif" />
+    <Content Include="hostpageimages\侧页栏2_045.gif" />
+    <Content Include="hostpageimages\侧页栏2_05.gif" />
+    <Content Include="hostpageimages\侧页栏2_055.gif" />
+    <Content Include="hostpageimages\侧页栏2_06.gif" />
+    <Content Include="hostpageimages\侧页栏2_065.gif" />
+    <Content Include="hostpageimages\侧页栏2_07.gif" />
+    <Content Include="Imagescom\background.png" />
+    <Content Include="Imagescom\backgroundx.png" />
+    <Content Include="Imagescom\c11.png" />
+    <Content Include="Imagescom\FISH.gif" />
+    <Content Include="Imagescom\lan.gif" />
+    <Content Include="Imagescom\lan2.gif" />
+    <Content Include="Imagescom\logo.png" />
+    <Content Include="Imagescom\P1.png" />
+    <Content Include="Imagescom\P2.png" />
+    <Content Include="Imagescom\p3.png" />
+    <Content Include="Imagescom\play.png" />
+    <Content Include="Imagescom\ppa.gif" />
+    <Content Include="Imagescom\ppac.gif" />
+    <Content Include="Imagescom\prom.png" />
+    <Content Include="Imagescom\qiuzhuzhezhuce.jpg" />
+    <Content Include="Imagescom\qrcodesc.gif" />
+    <Content Include="Imagescom\r1.jpg" />
+    <Content Include="Imagescom\scico.gif" />
+    <Content Include="Imagescom\shangjiazhuce1.jpg" />
+    <Content Include="Imagescom\shangjiazhuce2.jpg" />
+    <Content Include="Imagescom\tj.png" />
+    <Content Include="Imagescom\TL.png" />
+    <Content Include="Imagescom\tux.gif" />
+    <Content Include="Imagescom\w1.png" />
+    <Content Include="Imagescom\y1.jpg" />
+    <Content Include="Imagescom\y2.jpg" />
+    <Content Include="Imagescom\yt.jpg" />
+    <Content Include="Imagescom\zhixunshizhuce.jpg" />
+    <Content Include="Imagescom\zilan.gif" />
+    <Content Include="Imagescom\地址.png" />
+    <Content Include="Imagescom\登录.png" />
+    <Content Include="Imagescom\访问流程.gif" />
+    <Content Include="Images\bussiness.png" />
+    <Content Include="Images\consulter-2.png" />
+    <Content Include="Images\consulter.png" />
+    <Content Include="Images\down.jpg" />
+    <Content Include="Images\downrow.png" />
+    <Content Include="Images\FISH.gif" />
+    <Content Include="Images\helper-man.png" />
+    <Content Include="Images\helper-woman.png" />
+    <Content Include="Images\seashell.png" />
+    <Content Include="Images\spacer.gif" />
+    <Content Include="Images\testtjfinished_01.gif" />
+    <Content Include="Images\testtjfinished_02.gif" />
+    <Content Include="Images\testtjfinished_03.gif" />
+    <Content Include="Images\testtjmiddle_02.png" />
+    <Content Include="Images\ti题目提交_01.png" />
+    <Content Include="Images\ti题目提交_02.png" />
+    <Content Include="Images\ti题目提交_04.png" />
+    <Content Include="Images\ti题目提交_06.png" />
+    <Content Include="Images\ti题目提交_07.png" />
+    <Content Include="Images\ti题目提交_08.png" />
+    <Content Include="Images\ti题目提交_09.png" />
+    <Content Include="Images\tj.gif" />
+    <Content Include="Images\tj_01.gif" />
+    <Content Include="Images\tj_02.gif" />
+    <Content Include="Images\tj_03.gif" />
+    <Content Include="Images\tj_04.gif" />
+    <Content Include="Images\tj_05.gif" />
+    <Content Include="Images\tmj.png" />
+    <Content Include="Images\up.jpg" />
+    <Content Include="Images\uprow.png" />
+    <Content Include="Images\vcodebg.png" />
+    <Content Include="Images\右侧查询_01.gif" />
+    <Content Include="Images\右侧查询_02.gif" />
+    <Content Include="Images\右侧查询_03.gif" />
+    <Content Include="Images\右侧查询_04.gif" />
+    <Content Include="Images\右侧查询_05.gif" />
+    <Content Include="Images\提交结果_01.png" />
+    <Content Include="Images\提交结果_02.png" />
+    <Content Include="Images\水流123.gif" />
+    <Content Include="Images\返回首页.png" />
+    <Content Include="introduction.htm" />
+    <Content Include="introduction\complete.js" />
+    <Content Include="introduction\images\active.jpg" />
+    <Content Include="introduction\images\adultsystem.jpg" />
+    <Content Include="introduction\images\autisum.jpg" />
+    <Content Include="introduction\images\childsystem.jpg" />
+    <Content Include="introduction\images\connect.jpg" />
+    <Content Include="introduction\images\email.png" />
+    <Content Include="introduction\images\expertchoice.jpg" />
+    <Content Include="introduction\images\external.png" />
+    <Content Include="introduction\images\jiaoluo.jpg" />
+    <Content Include="introduction\images\jieshao.jpg" />
+    <Content Include="introduction\images\pdf.png" />
+    <Content Include="introduction\images\private.jpg" />
+    <Content Include="introduction\images\r1.jpg" />
+    <Content Include="introduction\images\yt.jpg" />
+    <Content Include="introduction\jquery-ui-1.10.0.custom.min.js" />
+    <Content Include="introduction\jquery.cookie.js" />
+    <Content Include="introduction\jquery.cycle.all.js" />
+    <Content Include="introduction\jquery.js" />
+    <Content Include="introduction\part1.css" />
+    <Content Include="introduction\part1.js" />
+    <Content Include="introduction\SOULCASTLEindex.html" />
+    <Content Include="login.aspx" />
+    <Content Include="lyb\Addmsg.aspx" />
+    <Content Include="lyb\Adminhf.aspx" />
+    <Content Include="lyb\App_Data\#Message DB.mdb" />
+    <Content Include="lyb\download.aspx" />
+    <Content Include="lyb\Global.asax" />
+    <Content Include="lyb\home.aspx" />
+    <Content Include="lyb\images-XP33\1.css" />
+    <Content Include="lyb\images-XP33\200591923305584331.gif" />
+    <Content Include="lyb\images-XP33\200591923312172310.gif" />
+    <Content Include="lyb\images-XP33\200591923321282758.gif" />
+    <Content Include="lyb\images-XP33\200591923323664204.gif" />
+    <Content Include="lyb\images-XP33\200591923331536868.gif" />
+    <Content Include="lyb\images-XP33\200591923333614456.gif" />
+    <Content Include="lyb\images-XP33\200591923334921047.gif" />
+    <Content Include="lyb\images-XP33\200591923342599036.gif" />
+    <Content Include="lyb\images-XP33\200591923344659848.gif" />
+    <Content Include="lyb\images-XP33\20059192334566286.gif" />
+    <Content Include="lyb\images-XP33\3-6.gif" />
+    <Content Include="lyb\images-XP33\36.gif" />
+    <Content Include="lyb\images-XP33\3_06.jpg" />
+    <Content Include="lyb\images-XP33\3_07.jpg" />
+    <Content Include="lyb\images-XP33\4.gif" />
+    <Content Include="lyb\images-XP33\5.gif" />
+    <Content Include="lyb\images-XP33\8.gif" />
+    <Content Include="lyb\images-XP33\92.gif" />
+    <Content Include="lyb\images-XP33\A33_2.jpg" />
+    <Content Include="lyb\images-XP33\back.gif" />
+    <Content Include="lyb\images-XP33\back409.gif" />
+    <Content Include="lyb\images-XP33\BACKGRD.gif" />
+    <Content Include="lyb\images-XP33\background.gif" />
+    <Content Include="lyb\images-XP33\banner.jpg" />
+    <Content Include="lyb\images-XP33\bannerf.jpg" />
+    <Content Include="lyb\images-XP33\bg01.gif" />
+    <Content Include="lyb\images-XP33\bg1.gif" />
+    <Content Include="lyb\images-XP33\bjImage.jpg" />
+    <Content Include="lyb\images-XP33\bookmark.gif" />
+    <Content Include="lyb\images-XP33\books008.gif" />
+    <Content Include="lyb\images-XP33\boy.gif" />
+    <Content Include="lyb\images-XP33\buttom.gif" />
+    <Content Include="lyb\images-XP33\chinamap.gif" />
+    <Content Include="lyb\images-XP33\click.htm" />
+    <Content Include="lyb\images-XP33\comment.gif" />
+    <Content Include="lyb\images-XP33\common.js" />
+    <Content Include="lyb\images-XP33\del.gif" />
+    <Content Include="lyb\images-XP33\deletes.gif" />
+    <Content Include="lyb\images-XP33\dm.gif" />
+    <Content Include="lyb\images-XP33\dn.gif" />
+    <Content Include="lyb\images-XP33\ds.gif" />
+    <Content Include="lyb\images-XP33\dy.gif" />
+    <Content Include="lyb\images-XP33\edit.gif" />
+    <Content Include="lyb\images-XP33\education0126.gif" />
+    <Content Include="lyb\images-XP33\education0127.gif" />
+    <Content Include="lyb\images-XP33\education0128.gif" />
+    <Content Include="lyb\images-XP33\education0129.gif" />
+    <Content Include="lyb\images-XP33\egg.gif" />
+    <Content Include="lyb\images-XP33\email.gif" />
+    <Content Include="lyb\images-XP33\emailto.gif" />
+    <Content Include="lyb\images-XP33\emailtofriend.gif" />
+    <Content Include="lyb\images-XP33\face0.gif" />
+    <Content Include="lyb\images-XP33\favorites.gif" />
+    <Content Include="lyb\images-XP33\fav_add1.gif" />
+    <Content Include="lyb\images-XP33\flower.gif" />
+    <Content Include="lyb\images-XP33\forum2_f_143.gif" />
+    <Content Include="lyb\images-XP33\fs.gif" />
+    <Content Include="lyb\images-XP33\ft.gif" />
+    <Content Include="lyb\images-XP33\FTP.gif" />
+    <Content Include="lyb\images-XP33\Get_Help_sml.gif" />
+    <Content Include="lyb\images-XP33\girl.gif" />
+    <Content Include="lyb\images-XP33\gotop.gif" />
+    <Content Include="lyb\images-XP33\greenorange.jpg" />
+    <Content Include="lyb\images-XP33\gs.gif" />
+    <Content Include="lyb\images-XP33\head_meihua1.gif" />
+    <Content Include="lyb\images-XP33\hf.gif" />
+    <Content Include="lyb\images-XP33\home.gif" />
+    <Content Include="lyb\images-XP33\home1.gif" />
+    <Content Include="lyb\images-XP33\info.gif" />
+    <Content Include="lyb\images-XP33\ip.gif" />
+    <Content Include="lyb\images-XP33\logo.gif" />
+    <Content Include="lyb\images-XP33\m4-2.gif" />
+    <Content Include="lyb\images-XP33\mail.gif" />
+    <Content Include="lyb\images-XP33\mail1.gif" />
+    <Content Include="lyb\images-XP33\megei.bmp" />
+    <Content Include="lyb\images-XP33\message.gif" />
+    <Content Include="lyb\images-XP33\offline.gif" />
+    <Content Include="lyb\images-XP33\oicq.gif" />
+    <Content Include="lyb\images-XP33\pages.gif" />
+    <Content Include="lyb\images-XP33\pic145.jpg" />
+    <Content Include="lyb\images-XP33\post.gif" />
+    <Content Include="lyb\images-XP33\postnew.gif" />
+    <Content Include="lyb\images-XP33\posttime.gif" />
+    <Content Include="lyb\images-XP33\profile.gif" />
+    <Content Include="lyb\images-XP33\project2.gif" />
+    <Content Include="lyb\images-XP33\publish.gif" />
+    <Content Include="lyb\images-XP33\publish.guide.gif" />
+    <Content Include="lyb\images-XP33\qq.gif" />
+    <Content Include="lyb\images-XP33\qq1.gif" />
+    <Content Include="lyb\images-XP33\qq_offline%281%29.gif" />
+    <Content Include="lyb\images-XP33\qq_offline%282%29.gif" />
+    <Content Include="lyb\images-XP33\qq_offline%283%29.gif" />
+    <Content Include="lyb\images-XP33\qq_offline.gif" />
+    <Content Include="lyb\images-XP33\qq_online.gif" />
+    <Content Include="lyb\images-XP33\quote.gif" />
+    <Content Include="lyb\images-XP33\read.gif" />
+    <Content Include="lyb\images-XP33\reg_dl.gif" />
+    <Content Include="lyb\images-XP33\reg_reg.gif" />
+    <Content Include="lyb\images-XP33\reply.gif" />
+    <Content Include="lyb\images-XP33\replynow.gif" />
+    <Content Include="lyb\images-XP33\rongyu.gif" />
+    <Content Include="lyb\images-XP33\s01.gif" />
+    <Content Include="lyb\images-XP33\saveas.gif" />
+    <Content Include="lyb\images-XP33\search.guide.gif" />
+    <Content Include="lyb\images-XP33\sh.gif" />
+    <Content Include="lyb\images-XP33\sigline.gif" />
+    <Content Include="lyb\images-XP33\space.gif" />
+    <Content Include="lyb\images-XP33\speech.gif" />
+    <Content Include="lyb\images-XP33\st.gif" />
+    <Content Include="lyb\images-XP33\top.gif" />
+    <Content Include="lyb\images-XP33\toucan.gif" />
+    <Content Include="lyb\images-XP33\tt.gif" />
+    <Content Include="lyb\images-XP33\url.gif" />
+    <Content Include="lyb\images-XP33\vinebar.gif" />
+    <Content Include="lyb\images-XP33\vote.gif" />
+    <Content Include="lyb\images-XP33\votenew.gif" />
+    <Content Include="lyb\images-XP33\vv020.gif" />
+    <Content Include="lyb\images-XP33\wave.gif" />
+    <Content Include="lyb\images-XP33\write.gif" />
+    <Content Include="lyb\images-XP33\wx.gif" />
+    <Content Include="lyb\images-XP33\yc.gif" />
+    <Content Include="lyb\images-XP33\yggo2005612111.jpg" />
+    <Content Include="lyb\images-XP33\yj.gif" />
+    <Content Include="lyb\images-XP33\yy.gif" />
+    <Content Include="lyb\images-XP33\zh.gif" />
+    <Content Include="lyb\images\1.css" />
+    <Content Include="lyb\images\36.gif" />
+    <Content Include="lyb\images\4p07d6k4fpe6s.jpg" />
+    <Content Include="lyb\images\8d1irjccnk46s.jpg" />
+    <Content Include="lyb\images\A33_2.jpg" />
+    <Content Include="lyb\images\AddNew.gif" />
+    <Content Include="lyb\images\Arrow.gif" />
+    <Content Include="lyb\images\back.gif" />
+    <Content Include="lyb\images\back409.gif" />
+    <Content Include="lyb\images\BACKGRD.gif" />
+    <Content Include="lyb\images\background.gif" />
+    <Content Include="lyb\images\bbs_line.gif" />
+    <Content Include="lyb\images\bg01.gif" />
+    <Content Include="lyb\images\bg1.gif" />
+    <Content Include="lyb\images\bjImage.jpg" />
+    <Content Include="lyb\images\bookmark.gif" />
+    <Content Include="lyb\images\books008.gif" />
+    <Content Include="lyb\images\boy.gif" />
+    <Content Include="lyb\images\buttom.gif" />
+    <Content Include="lyb\images\Cancel.gif" />
+    <Content Include="lyb\images\chinamap.gif" />
+    <Content Include="lyb\images\chinamap22.gif" />
+    <Content Include="lyb\images\clock.gif" />
+    <Content Include="lyb\images\Computer.gif" />
+    <Content Include="lyb\images\ContentBG.gif" />
+    <Content Include="lyb\images\del.gif" />
+    <Content Include="lyb\images\delete.gif" />
+    <Content Include="lyb\images\deletes.gif" />
+    <Content Include="lyb\images\Dot.gif" />
+    <Content Include="lyb\images\edit.gif" />
+    <Content Include="lyb\images\email.gif" />
+    <Content Include="lyb\images\emailtofriend.gif" />
+    <Content Include="lyb\images\Exclam.gif" />
+    <Content Include="lyb\images\face0.gif" />
+    <Content Include="lyb\images\fav_add1.gif" />
+    <Content Include="lyb\images\First.gif" />
+    <Content Include="lyb\images\flower.gif" />
+    <Content Include="lyb\images\girl.gif" />
+    <Content Include="lyb\images\Go.gif" />
+    <Content Include="lyb\images\gohome.gif" />
+    <Content Include="lyb\images\gotop.gif" />
+    <Content Include="lyb\images\head_meihua1.gif" />
+    <Content Include="lyb\images\hf.gif" />
+    <Content Include="lyb\images\home.gif" />
+    <Content Include="lyb\images\home1.gif" />
+    <Content Include="lyb\images\ip.gif" />
+    <Content Include="lyb\images\Last.gif" />
+    <Content Include="lyb\images\LeftLine.gif" />
+    <Content Include="lyb\images\Line.gif" />
+    <Content Include="lyb\images\loading.gif" />
+    <Content Include="lyb\images\LoginBG.gif" />
+    <Content Include="lyb\images\mail.gif" />
+    <Content Include="lyb\images\mail1.gif" />
+    <Content Include="lyb\images\MainBG.gif" />
+    <Content Include="lyb\images\megei.bmp" />
+    <Content Include="lyb\images\NewPost.gif" />
+    <Content Include="lyb\images\Next.gif" />
+    <Content Include="lyb\images\oicq.gif" />
+    <Content Include="lyb\images\pic145.jpg" />
+    <Content Include="lyb\images\post.gif" />
+    <Content Include="lyb\images\posttime.gif" />
+    <Content Include="lyb\images\Previous.gif" />
+    <Content Include="lyb\images\profile.gif" />
+    <Content Include="lyb\images\publish.gif" />
+    <Content Include="lyb\images\qq.gif" />
+    <Content Include="lyb\images\qq1.gif" />
+    <Content Include="lyb\images\QuickReply.gif" />
+    <Content Include="lyb\images\read.gif" />
+    <Content Include="lyb\images\Register.gif" />
+    <Content Include="lyb\images\reply.gif" />
+    <Content Include="lyb\images\replynow.gif" />
+    <Content Include="lyb\images\Save.gif" />
+    <Content Include="lyb\images\saveas.gif" />
+    <Content Include="lyb\images\Search.gif" />
+    <Content Include="lyb\images\space.gif" />
+    <Content Include="lyb\images\top.gif" />
+    <Content Include="lyb\images\topicIcon.gif" />
+    <Content Include="lyb\images\url.gif" />
+    <Content Include="lyb\images\wave.gif" />
+    <Content Include="lyb\images\write.gif" />
+    <Content Include="lyb\index.aspx" />
+    <Content Include="lyb\Login_M.aspx" />
+    <Content Include="lyb\message.css" />
+    <Content Include="lyb\ModifyPass.aspx" />
+    <Content Include="lyb\obj\Debug\WebApplication2.csproj.FileListAbsolute.txt" />
+    <Content Include="lyb\obj\Debug\WebApplication2.dll" />
+    <Content Include="lyb\obj\Debug\WebApplication2.pdb" />
+    <Content Include="lyb\touxinag\em01.gif" />
+    <Content Include="lyb\touxinag\em02.gif" />
+    <Content Include="lyb\touxinag\em03.gif" />
+    <Content Include="lyb\touxinag\em05.gif" />
+    <Content Include="lyb\touxinag\em07.gif" />
+    <Content Include="lyb\touxinag\em08.gif" />
+    <Content Include="lyb\touxinag\em09.gif" />
+    <Content Include="lyb\touxinag\em10.gif" />
+    <Content Include="lyb\touxinag\em11.gif" />
+    <Content Include="lyb\touxinag\em13.gif" />
+    <Content Include="lyb\touxinag\em14.gif" />
+    <Content Include="lyb\touxinag\em15.gif" />
+    <Content Include="lyb\touxinag\em18.gif" />
+    <Content Include="lyb\touxinag\em19.gif" />
+    <Content Include="lyb\touxinag\em20.gif" />
+    <Content Include="lyb\touxinag\em22.gif" />
+    <Content Include="lyb\touxinag\em23.gif" />
+    <Content Include="lyb\touxinag\em25.gif" />
+    <Content Include="lyb\touxinag\em26.gif" />
+    <Content Include="lyb\touxinag\em27.gif" />
+    <Content Include="lyb\touxinag\em28.gif" />
+    <Content Include="lyb\touxinag\em29.gif" />
+    <Content Include="lyb\touxinag\em30.gif" />
+    <Content Include="lyb\touxinag\em31.gif" />
+    <Content Include="lyb\touxinag\em32.gif" />
+    <Content Include="lyb\touxinag\em33.gif" />
+    <Content Include="lyb\touxinag\em35.gif" />
+    <Content Include="lyb\touxinag\em37.gif" />
+    <Content Include="lyb\touxinag\em38.gif" />
+    <Content Include="lyb\touxinag\em39.gif" />
+    <Content Include="lyb\touxinag\em40.gif" />
+    <Content Include="lyb\touxinag\em41.gif" />
+    <Content Include="lyb\touxinag\em42.gif" />
+    <Content Include="lyb\touxinag\em43.gif" />
+    <Content Include="lyb\touxinag\em46.gif" />
+    <Content Include="lyb\touxinag\em47.gif" />
+    <Content Include="lyb\touxinag\em49.gif" />
+    <Content Include="news\adultforum.html" />
+    <Content Include="news\adultnews.html" />
+    <Content Include="news\childforum.html" />
+    <Content Include="news\childnews.html" />
+    <Content Include="news\ie_png.js" />
+    <Content Include="news\images\1page-img1.jpg" />
+    <Content Include="news\images\1page-img2.jpg" />
+    <Content Include="news\images\bl.jpg" />
+    <Content Include="news\images\border-bot.png" />
+    <Content Include="news\images\border-side.png" />
+    <Content Include="news\images\border-top.png" />
+    <Content Include="news\images\box-bg.png" />
+    <Content Include="news\images\cl1.jpg" />
+    <Content Include="news\images\cl2.jpg" />
+    <Content Include="news\images\content-bg.jpg" />
+    <Content Include="news\images\divider.gif" />
+    <Content Include="news\images\el1.jpg" />
+    <Content Include="news\images\el2.jpg" />
+    <Content Include="news\images\footer-bg.gif" />
+    <Content Include="news\images\forge.jpg" />
+    <Content Include="news\images\header-bg.jpg" />
+    <Content Include="news\images\icon-home.gif" />
+    <Content Include="news\images\icon-mail.gif" />
+    <Content Include="news\images\icon-map.gif" />
+    <Content Include="news\images\img-wrapper1.png" />
+    <Content Include="news\images\img-wrapper2.gif" />
+    <Content Include="news\images\jy.jpg" />
+    <Content Include="news\images\left-bot-corner.png" />
+    <Content Include="news\images\left-top-corner.png" />
+    <Content Include="news\images\llt.jpg" />
+    <Content Include="news\images\logo.png" />
+    <Content Include="news\images\png-bg.png" />
+    <Content Include="news\images\ppa.gif" />
+    <Content Include="news\images\ppac.gif" />
+    <Content Include="news\images\right-bot-corner.png" />
+    <Content Include="news\images\right-top-corner.png" />
+    <Content Include="news\images\spacer.gif" />
+    <Content Include="news\images\tk.jpg" />
+    <Content Include="news\images\top-tail.jpg" />
+    <Content Include="news\images\tz.jpg" />
+    <Content Include="news\images\xf.jpg" />
+    <Content Include="news\newspage\adultpage.html" />
+    <Content Include="news\newspage\childpage.html" />
+    <Content Include="news\newspage\css\previews.css" />
+    <Content Include="news\newspage\css\style.css" />
+    <Content Include="news\newspage\images\ban1.jpg" />
+    <Content Include="news\newspage\images\ban2.jpg" />
+    <Content Include="news\newspage\images\bg-pattern.jpg" />
+    <Content Include="news\newspage\images\biaot.jpg" />
+    <Content Include="news\newspage\images\cont.gif" />
+    <Content Include="news\newspage\images\ct1.jpg" />
+    <Content Include="news\newspage\images\ct2.jpg" />
+    <Content Include="news\newspage\images\logo.png" />
+    <Content Include="news\newspage\images\part1.jpg" />
+    <Content Include="news\newspage\images\part2.jpg" />
+    <Content Include="news\newspage\images\part3.jpg" />
+    <Content Include="news\newspage\images\part4.jpg" />
+    <Content Include="news\newspage\images\part5.jpg" />
+    <Content Include="news\newspage\images\qqian.jpg" />
+    <Content Include="news\newspage\images\xt1.jpg" />
+    <Content Include="news\newspage\images\xt2.jpg" />
+    <Content Include="news\newspage\js\analytics.js" />
+    <Content Include="news\newspage\js\jquery-1.11.0.min.js" />
+    <Content Include="news\newspage\js\piwik.js" />
+    <Content Include="news\newspage\js\xenforo.js" />
+    <Content Include="news\newspage\newico.gif" />
+    <Content Include="news\newspage\newscontent\10岁之前教会孩子怎么做人.html" />
+    <Content Include="news\newspage\newscontent\4-5岁孩子学习能力.html" />
+    <Content Include="news\newspage\newscontent\4-6岁的孩子教育.html" />
+    <Content Include="news\newspage\newscontent\contentcss\ebook-2057067341.css" />
+    <Content Include="news\newspage\newscontent\contentcss\gallery-1713725503.css" />
+    <Content Include="news\newspage\newscontent\contentcss\galreader-3239564825.css" />
+    <Content Include="news\newspage\newscontent\contentcss\index-257108039.css" />
+    <Content Include="news\newspage\newscontent\contentcss\lite-2427499343.css" />
+    <Content Include="news\newspage\newscontent\contentcss\phone-8859937250.css" />
+    <Content Include="news\newspage\newscontent\contentcss\wechat-guide-6010034738.css" />
+    <Content Include="news\newspage\newscontent\contentimages\bookbg.gif" />
+    <Content Include="news\newspage\newscontent\contentimages\bookends.jpg" />
+    <Content Include="news\newspage\newscontent\contentimages\styles.css" />
+    <Content Include="news\newspage\newscontent\contentjs\analytics.js" />
+    <Content Include="news\newspage\newscontent\contentjs\campaign-loader-2409221021.js" />
+    <Content Include="news\newspage\newscontent\contentjs\ecommerce.js" />
+    <Content Include="news\newspage\newscontent\contentjs\piwik.js" />
+    <Content Include="news\newspage\newscontent\contentjs\setup-3759140454.js" />
+    <Content Include="news\newspage\newscontent\contentjs\snapshot-annotation.png" />
+    <Content Include="news\newspage\newscontent\E一遍关于颅像学的文章.html" />
+    <Content Include="news\newspage\newscontent\E动物也有社会行为.html" />
+    <Content Include="news\newspage\newscontent\E看看西方小孩的培养观.html" />
+    <Content Include="news\newspage\newscontent\E视觉的另类说法.html" />
+    <Content Include="news\newspage\newscontent\《爱情侩子手》.html" />
+    <Content Include="news\newspage\newscontent\京师博仁心理行为反馈训练系统.html" />
+    <Content Include="news\newspage\newscontent\儿童房颜色的选择对孩子成长很重要.html" />
+    <Content Include="news\newspage\newscontent\公安民警测试平台.html" />
+    <Content Include="news\newspage\newscontent\关于“第三者”.html" />
+    <Content Include="news\newspage\newscontent\兴趣是最好的老师.html" />
+    <Content Include="news\newspage\newscontent\兵临城下.html" />
+    <Content Include="news\newspage\newscontent\名人谈兴趣.html" />
+    <Content Include="news\newspage\newscontent\团体辅导心理工具.html" />
+    <Content Include="news\newspage\newscontent\好妈妈胜过好老师.html" />
+    <Content Include="news\newspage\newscontent\对10岁女孩裸照思考.html" />
+    <Content Include="news\newspage\newscontent\应试教育与素质教育之争.html" />
+    <Content Include="news\newspage\newscontent\强势母亲对家庭造成的影响.html" />
+    <Content Include="news\newspage\newscontent\故事探秘 记忆测试（适合5-10儿童）.html" />
+    <Content Include="news\newspage\newscontent\新人拓展训练.html" />
+    <Content Include="news\newspage\newscontent\李中莹爱上双人舞.html" />
+    <Content Include="news\newspage\newscontent\来自哲学家探索节选《叔本华的治疗》.html" />
+    <Content Include="news\newspage\newscontent\父母一定要知道的道德发展阶段　.html" />
+    <Content Include="news\newspage\newscontent\羞耻情绪的两面性——社会生物进化理论.html" />
+    <Content Include="news\newspage\newscontent\色彩对儿童的影响.html" />
+    <Content Include="news\newspage\newscontent\选购儿童书桌.html" />
+    <Content Include="news\newspage\newscontent\阅读绝招：巧设故事情境学英语.html" />
+    <Content Include="news\newspage\newscontent\青少年优秀文选 麻将风波.html" />
+    <Content Include="news\newspage\newscontent\音乐放松椅.html" />
+    <Content Include="news\newspage\soulcastlenewspage.html" />
+    <Content Include="news\soulcastlenews.html" />
+    <Content Include="news\style.css" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="bin\WebApplication2.dll.config" />
+    <Content Include="packages\jQuery.2.1.3\Content\Scripts\jquery-2.1.3.min.map" />
+    <Content Include="packages\jQuery.2.1.3\jQuery.2.1.3.nupkg" />
+    <Content Include="packages\jQuery.2.1.3\Tools\common.ps1" />
+    <Content Include="packages\jQuery.2.1.3\Tools\install.ps1" />
+    <Content Include="packages\jQuery.2.1.3\Tools\uninstall.ps1" />
+    <Content Include="packages\repositories.config" />
+    <Content Include="Policy.html" />
+    <Content Include="private\expertintroduction\eintro-CHENZHIXIONG.html" />
+    <Content Include="private\expertintroduction\eintro-GONGRUILI.html" />
+    <Content Include="private\expertintroduction\eintro-LINGBINGXIAN.html" />
+    <Content Include="private\expertintroduction\eintro-LINGZHI.html" />
+    <Content Include="private\expertintroduction\eintro-LIYUTANG.html" />
+    <Content Include="private\expertintroduction\eintro-LIZIXING.htm" />
+    <Content Include="private\expertintroduction\eintro-WANGSHUMING.html" />
+    <Content Include="private\expertintroduction\eintro-WUQI.html" />
+    <Content Include="private\expertintroduction\eintro-XIAYALI.html" />
+    <Content Include="private\expertintroduction\eintro-zhangyijun.htm" />
+    <Content Include="private\expertintroduction\eintro-ZHOULONGQUAN.html" />
+    <Content Include="private\expertintroduction\Feintro-Adam Lobel.html" />
+    <Content Include="private\expertintroduction\Feintro-Clancy Blair.htm" />
+    <Content Include="private\expertintroduction\Feintro-Daniel Kahneman.htm" />
+    <Content Include="private\expertintroduction\Feintro-Dorothy Espelage.htm" />
+    <Content Include="private\expertintroduction\Feintro-Isabela Granic.html" />
+    <Content Include="private\expertintroduction\Feintro-Roger Walsh.html" />
+    <Content Include="private\expertintroduction\Feintro-Rutger.html" />
+    <Content Include="private\expertintroduction\Fexpert-online.html" />
+    <Content Include="private\expertintroduction\mm_expert1.css" />
+    <Content Include="private\expertintroduction\mm_product_lg.gif" />
+    <Content Include="private\expertintroduction\mm_spacer.gif" />
+    <Content Include="private\expertintroduction\photo\Adam Lobel.png" />
+    <Content Include="private\expertintroduction\photo\chengzhixiong.jpg" />
+    <Content Include="private\expertintroduction\photo\clancy Blair.jpg" />
+    <Content Include="private\expertintroduction\photo\Daniel Kahneman.png" />
+    <Content Include="private\expertintroduction\photo\Espelage.png" />
+    <Content Include="private\expertintroduction\photo\GONGLI.png" />
+    <Content Include="private\expertintroduction\photo\Isabela Granic.png" />
+    <Content Include="private\expertintroduction\photo\lingbingxian.jpg" />
+    <Content Include="private\expertintroduction\photo\LINZI.png" />
+    <Content Include="private\expertintroduction\photo\liuyutang.jpg" />
+    <Content Include="private\expertintroduction\photo\lizixing.jpg" />
+    <Content Include="private\expertintroduction\photo\Roger Walsh.png" />
+    <Content Include="private\expertintroduction\photo\Rutger C.M.E.Engels.png" />
+    <Content Include="private\expertintroduction\photo\wangshuming.jpg" />
+    <Content Include="private\expertintroduction\photo\wuqi.jpg" />
+    <Content Include="private\expertintroduction\photo\xiayali.jpg" />
+    <Content Include="private\expertintroduction\photo\zhangyijun.jpg" />
+    <Content Include="private\expertintroduction\photo\zhoulongquan.jpg" />
+    <Content Include="private\expertintroduction\心理咨询师验证方法.html" />
+    <Content Include="private\images\backgrounds\wild_oliva_blue_light.png" />
+    <Content Include="private\images\backgrounds\wild_oliva_dark.png" />
+    <Content Include="private\images\backgrounds\wild_oliva_light.png" />
+    <Content Include="private\images\backgrounds\wild_oliva_light_head.png" />
+    <Content Include="private\images\logodid.gif" />
+    <Content Include="private\images\portfolio\a1.jpg" />
+    <Content Include="private\images\portfolio\a3.jpg" />
+    <Content Include="private\images\portfolio\a4.jpg" />
+    <Content Include="private\images\portfolio\a5.jpg" />
+    <Content Include="private\images\portfolio\a6.jpg" />
+    <Content Include="private\images\portfolio\b3.jpg" />
+    <Content Include="private\images\portfolio\b5.jpg" />
+    <Content Include="private\images\portfolio\c1.jpg" />
+    <Content Include="private\images\portfolio\c2.jpg" />
+    <Content Include="private\images\portfolio\c3.jpg" />
+    <Content Include="private\images\portfolio\c4.jpg" />
+    <Content Include="private\images\portfolio\c5.jpg" />
+    <Content Include="private\images\portfolio\c6.jpg" />
+    <Content Include="private\images\portfolio\p1.jpg" />
+    <Content Include="private\images\portfolio\p3.jpg" />
+    <Content Include="private\images\portfolio\p4.jpg" />
+    <Content Include="private\images\portfolio\t3.jpg" />
+    <Content Include="private\images\portfolio\t4.jpg" />
+    <Content Include="private\images\portfolio\t5.jpg" />
+    <Content Include="private\js\easing.js" />
+    <Content Include="private\js\isotope\css\style.css" />
+    <Content Include="private\js\isotope\jquery.isotope.min.js" />
+    <Content Include="private\js\jquery-1.9.0.min.js" />
+    <Content Include="private\js\jquery.ui.totop.js" />
+    <Content Include="private\js\modernizr.custom.48287.js" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\default\loader.gif" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\default\sprite.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\images\prettyPhoto\light_square\sprite.png" />
+    <Content Include="private\js\prettyPhoto_3.1.5\jquery.prettyPhoto.js" />
+    <Content Include="private\js\prettyPhoto_3.1.5\prettyPhoto.css" />
+    <Content Include="private\js\restart_theme.js" />
+    <Content Include="private\js\woothemes-FlexSlider-06b12f8\flexslider.css" />
+    <Content Include="private\js\woothemes-FlexSlider-06b12f8\images\bg_direction_nav.png" />
+    <Content Include="private\js\woothemes-FlexSlider-06b12f8\jquery.flexslider-min.js" />
+    <Content Include="private\style.css" />
+    <Content Include="private\zhuanjiajianjie.html" />
+    <Content Include="psytest\conclusion.aspx" />
+    <Content Include="psytest\Images\FISH.gif" />
+    <Content Include="psytest\Images\seashell.png" />
+    <Content Include="psytest\Images\spacer.gif" />
+    <Content Include="psytest\Images\testtjfinished_01.gif" />
+    <Content Include="psytest\Images\testtjfinished_02.gif" />
+    <Content Include="psytest\Images\testtjfinished_03.gif" />
+    <Content Include="psytest\Images\testtjfinished_03.jpg" />
+    <Content Include="psytest\Images\testtjmiddle_02.png" />
+    <Content Include="psytest\Images\tibackground.jpg" />
+    <Content Include="psytest\Images\ti题目提交副本.jpg" />
+    <Content Include="psytest\Images\tj.gif" />
+    <Content Include="psytest\Images\tmj.png" />
+    <Content Include="psytest\Images\water123.gif" />
+    <Content Include="psytest\Images\右侧查询_01.gif" />
+    <Content Include="psytest\Images\右侧查询_02.gif" />
+    <Content Include="psytest\Images\右侧查询_03.gif" />
+    <Content Include="psytest\Images\右侧查询_04.gif" />
+    <Content Include="psytest\Images\右侧查询_05.gif" />
+    <Content Include="psytest\Images\提交结果_01.png" />
+    <Content Include="psytest\Images\提交结果_02.png" />
+    <Content Include="psytest\Images\水流123.gif" />
+    <Content Include="psytest\Images\返回首页.png" />
+    <Content Include="psytest\shijuan1.aspx" />
+    <Content Include="psytest\shijuan2.aspx" />
+    <Content Include="psytest\shijuan3.aspx" />
+    <Content Include="psytest\shijuan4.aspx" />
+    <Content Include="psytest\shijuan5.aspx" />
+    <Content Include="psytest\shijuan6.aspx" />
+    <Content Include="psytest\shijuan7.aspx" />
+    <Content Include="psytest\StyleSheet.css" />
+    <Content Include="RegistSuccessful.html" />
+    <Content Include="scripts\Jquery\jquery.ajax.js" />
+    <Content Include="scripts\Jquery\jquery.cookie.js" />
+    <Content Include="scripts\Jquery\jquery.custom.min.js" />
+    <Content Include="scripts\Jquery\jquery.cxslide.min.js" />
+    <Content Include="scripts\Jquery\jquery.desktop.js" />
+    <Content Include="scripts\Jquery\jquery.easing.min.js" />
+    <Content Include="scripts\Jquery\jquery.easyui.min.js" />
+    <Content Include="scripts\Jquery\jquery.mzBackground.js" />
+    <Content Include="scripts\Jquery\jquery.raty.js" />
+    <Content Include="scripts\Jquery\jquery.scroll.js" />
+    <Content Include="scripts\Jquery\jquery.tree.js" />
+    <Content Include="scripts\Jquery\jquery.winResize.js" />
+    <Content Include="scripts\Jquery\responsiveslides.min.js" />
+    <Content Include="scripts\Login\Login.js" />
+    <Content Include="soulcastlefrontpage.html" />
+    <Content Include="soulcastlelead\soulcastleZC.html" />
+    <Content Include="soulcastlelead\soulcastleZC\images\ajax-loader.gif" />
+    <Content Include="soulcastlelead\soulcastleZC\images\arrow-left.gif" />
+    <Content Include="soulcastlelead\soulcastleZC\images\arrow-right.gif" />
+    <Content Include="soulcastlelead\soulcastleZC\images\body-bg.png" />
+    <Content Include="soulcastlelead\soulcastleZC\images\logo.png" />
+    <Content Include="soulcastlelead\soulcastleZC\images\ppa.gif" />
+    <Content Include="soulcastlelead\soulcastleZC\images\ppac.gif" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_content_bg.jpg" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_content_bg_wrapper.jpg" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_footer_bg.jpg" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_footer_bg_wrapper.jpg" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_header_bg.jpg" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_header_bg_wrapper.jpg" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_image_02.jpg" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_image_03.jpg" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_image_04.jpg" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_image_05.jpg" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_image_06.jpg" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_menu_button.png" />
+    <Content Include="soulcastlelead\soulcastleZC\images\templatemo_menu_button_hover.png" />
+    <Content Include="soulcastlelead\soulcastleZC\images\twitter_icon.png" />
+    <Content Include="soulcastlelead\soulcastleZC\js\coda-slider.1.1.1.js" />
+    <Content Include="soulcastlelead\soulcastleZC\js\coda-slider.1.1.1.pack.js" />
+    <Content Include="soulcastlelead\soulcastleZC\js\jquery-1.2.1.pack.js" />
+    <Content Include="soulcastlelead\soulcastleZC\js\jquery-easing-compatibility.1.2.js" />
+    <Content Include="soulcastlelead\soulcastleZC\js\jquery-easing-compatibility.1.2.pack.js" />
+    <Content Include="soulcastlelead\soulcastleZC\js\jquery-easing.1.2.js" />
+    <Content Include="soulcastlelead\soulcastleZC\js\jquery-easing.1.2.pack.js" />
+    <Content Include="soulcastlelead\soulcastleZC\js\jquery.form.js" />
+    <Content Include="soulcastlelead\soulcastleZC\js\jquery.js" />
+    <Content Include="soulcastlelead\soulcastleZC\js\jquery.validate.min.js" />
+    <Content Include="soulcastlelead\soulcastleZC\soulcastleglass_style.css" />
+    <Content Include="soulcastlelogin\area%281%29.html" />
+    <Content Include="soulcastlelogin\area%282%29.html" />
+    <Content Include="soulcastlelogin\area.html" />
+    <Content Include="soulcastlelogin\auth.utf8.js" />
+    <Content Include="soulcastlelogin\base.css" />
+    <Content Include="soulcastlelogin\fcmm_valid_code.js" />
+    <Content Include="soulcastlelogin\form_validator_list.js" />
+    <Content Include="soulcastlelogin\interfaceLogin.js" />
+    <Content Include="soulcastlelogin\iw_cookie.js" />
+    <Content Include="soulcastlelogin\jquery-1.3.2.js" />
+    <Content Include="soulcastlelogin\jquery-ui-1.7.1.js" />
+    <Content Include="soulcastlelogin\logo.png" />
+    <Content Include="soulcastlelogin\newqqLogin.png" />
+    <Content Include="soulcastlelogin\newsinaLogin.png" />
+    <Content Include="soulcastlelogin\newwanlitonglogin.jpg" />
+    <Content Include="soulcastlelogin\pa_ui.css" />
+    <Content Include="soulcastlelogin\pa_ui.js" />
+    <Content Include="soulcastlelogin\pa_ui_misc.js" />
+    <Content Include="soulcastlelogin\pa_ui_validator.js" />
+    <Content Include="soulcastlelogin\prom.png" />
+    <Content Include="soulcastlelogin\public.css" />
+    <Content Include="soulcastlelogin\qiuzhuzhezhuce.jpg" />
+    <Content Include="soulcastlelogin\sdc.js" />
+    <Content Include="soulcastlelogin\sdc9.js" />
+    <Content Include="soulcastlelogin\sdc_ad.js" />
+    <Content Include="soulcastlelogin\shangjiazhuce1.jpg" />
+    <Content Include="soulcastlelogin\signUp.css" />
+    <Content Include="soulcastlelogin\simple_e_one.css" />
+    <Content Include="soulcastlelogin\soulcastlelogin.css" />
+    <Content Include="soulcastlelogin\toa.js" />
+    <Content Include="soulcastlelogin\unionrsa.js" />
+    <Content Include="soulcastlelogin\web.js" />
+    <Content Include="soulcastlelogin\zhixunshizhuce.jpg" />
+    <Content Include="soulcastlelogin\地址.png" />
+    <Content Include="soulcastlelogin\访问流程.gif" />
+    <Content Include="specialentering.htm" />
+    <Content Include="special\css\soulcastlespecialenteringstyle.css" />
+    <Content Include="special\images\bullet.gif" />
+    <Content Include="special\images\bullet.png" />
+    <Content Include="special\images\icon_clients.png" />
+    <Content Include="special\images\icon_contact.png" />
+    <Content Include="special\images\icon_dribbble.png" />
+    <Content Include="special\images\icon_facebook.png" />
+    <Content Include="special\images\icon_rss.png" />
+    <Content Include="special\images\icon_services.png" />
+    <Content Include="special\images\icon_twitter.png" />
+    <Content Include="special\images\next.png" />
+    <Content Include="special\images\next_a.png" />
+    <Content Include="special\images\prev.png" />
+    <Content Include="special\images\prev_a.png" />
+    <Content Include="special\images\slider-image1.jpg" />
+    <Content Include="special\images\slider-image2.jpg" />
+    <Content Include="special\images\slider-image3.jpg" />
+    <Content Include="special\js\jquery.flexslider-min.js" />
+    <Content Include="special\page.html" />
+    <Content Include="special\soulcastlespecialentering.html" />
+    <Content Include="style.css" />
+    <Content Include="textpage\10岁之前教会孩子怎么做人.htm" />
+    <Content Include="textpage\4-5岁孩子学习能力.htm" />
+    <Content Include="textpage\强势母亲对家庭造成的影响.htm" />
+    <Content Include="title.aspx" />
+    <Content Include="webcss.css" />
+    <Content Include="咨询师证件鉴别.htm" />
+    <Content Include="宣称片.swf" />
+    <Content Include="divimage\zxs.psd" />
+    <Content Include="lyb\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <Content Include="lyb\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <Content Include="lyb\obj\Debug\WebApplication2.csproj.GenerateResource.Cache" />
+    <Content Include="lyb\obj\Debug\WebApplication2.csprojResolveAssemblyReference.cache" />
+    <Content Include="来访者说明咨询师证件.files\image001.gif" />
+    <Content Include="来访者说明咨询师证件.files\image004.gif" />
+    <Content Include="来访者说明咨询师证件.files\image007.gif" />
+    <Content Include="来访者说明咨询师证件.files\image008.gif" />
+    <Content Include="来访者说明咨询师证件.files\image011.gif" />
+    <Content Include="来访者说明咨询师证件.files\image012.gif" />
+    <Content Include="来访者说明咨询师证件.files\image013.gif" />
+    <Content Include="来访者说明咨询师证件.files\image016.jpg" />
+    <Content Include="来访者说明咨询师证件.files\image017.jpg" />
+    <Content Include="来访者说明咨询师证件.files\image018.jpg" />
+    <Content Include="来访者说明咨询师证件.files\image019.jpg" />
+    <Content Include="expertintroduction\_notes\Feintro-Adam Lobel.html.mno" />
+    <Content Include="expertintroduction\_notes\Feintro-Isabela Granic.html.mno" />
+    <Content Include="expertintroduction\_notes\Feintro-Roger Walsh.html.mno" />
+    <Content Include="expertintroduction\_notes\Feintro-Rutger C.M.E.Engels.mno" />
+    <Content Include="expertintroduction\_notes\Feintro-Rutger.html.mno" />
+    <Content Include="expertintroduction\_notes\mm_expert1.css.mno" />
+    <Content Include="private\expertintroduction\_notes\Feintro-Adam Lobel.html.mno" />
+    <Content Include="private\expertintroduction\_notes\Feintro-Isabela Granic.html.mno" />
+    <Content Include="private\expertintroduction\_notes\Feintro-Roger Walsh.html.mno" />
+    <Content Include="private\expertintroduction\_notes\Feintro-Rutger C.M.E.Engels.mno" />
+    <Content Include="private\expertintroduction\_notes\Feintro-Rutger.html.mno" />
+    <Content Include="private\expertintroduction\_notes\mm_expert1.css.mno" />
+    <Content Include="department\select.ashx" />
+    <None Include="Properties\PublishProfiles\payweb2 - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - FTP %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - FTP %284%29.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - FTP %285%29.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - FTP %286%29.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - FTP %287%29.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - Web Deploy %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - Web Deploy %284%29.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - Web Deploy %285%29.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - Web Deploy %286%29.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - Web Deploy %287%29.pubxml" />
+    <None Include="Properties\PublishProfiles\payweb2 - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\psyweb - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\psyweb - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\yftiger1982 - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\yftiger1982 - FTP %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\yftiger1982 - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\yftiger1982 - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\yftiger1982 - Web Deploy %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\yftiger1982 - Web Deploy %284%29.pubxml" />
+    <None Include="Properties\PublishProfiles\yftiger1982 - Web Deploy.pubxml" />
+    <None Include="scripts\jquery-2.1.3.intellisense.js" />
+    <Content Include="regist.aspx" />
+    <None Include="packages\jQuery.2.1.3\Content\Scripts\jquery-2.1.3-vsdoc.js" />
+    <Content Include="packages\jQuery.2.1.3\Content\Scripts\jquery-2.1.3.js" />
+    <Content Include="packages\jQuery.2.1.3\Content\Scripts\jquery-2.1.3.min.js" />
+    <None Include="packages\jQuery.2.1.3\Tools\jquery-2.1.3.intellisense.js" />
+    <Content Include="scripts\jquery-2.1.3.js" />
+    <Content Include="scripts\jquery-2.1.3.min.js" />
+    <Content Include="soulcastelmap.htm" />
+    <Content Include="soulcastldivd.htm" />
+    <Content Include="soulcastleexpert.htm" />
+    <Content Include="textpage\bg_grad.jpg" />
+    <Content Include="textpage\bg_nav.jpg" />
+    <Content Include="textpage\emx_nav_left.css" />
+    <Content Include="textpage\gblnav_left.gif" />
+    <Content Include="textpage\glblnav_selected.gif" />
+    <Content Include="textpage\glbnav_background.gif" />
+    <Content Include="textpage\glbnav_right.gif" />
+    <Content Include="textpage\textpage.htm" />
+    <Content Include="textpage\tl_curve_white.gif" />
+    <Content Include="textpage\tr_curve_white.gif" />
+    <Content Include="textpage\京师博仁心理行为反馈训练系统.htm" />
+    <Content Include="textpage\儿童房颜色的选择对孩子成长很重要.htm" />
+    <Content Include="textpage\公安民警测试平台.htm" />
+    <Content Include="textpage\兴趣是最好的老师.htm" />
+    <Content Include="textpage\兵临城下.htm" />
+    <Content Include="textpage\团体辅导心理工具.htm" />
+    <Content Include="textpage\好妈妈胜过好老师.htm" />
+    <Content Include="textpage\故事探秘 记忆测试.htm" />
+    <Content Include="textpage\新人拓展训练.htm" />
+    <Content Include="textpage\李中莹爱上双人舞.htm" />
+    <Content Include="textpage\色彩对儿童的影响.htm" />
+    <Content Include="textpage\英  一篇关于颅相学文章.htm" />
+    <Content Include="textpage\英  动物也有社会行为.htm" />
+    <Content Include="textpage\英  看看西方小孩的培养观.htm" />
+    <Content Include="textpage\英  视觉的另类说法.htm" />
+    <Content Include="textpage\选购儿童书桌.htm" />
+    <Content Include="textpage\音乐放松椅.htm" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="scripts\jquery-2.1.3.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="bussiness\AddActive.aspx.cs">
+      <DependentUpon>AddActive.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bussiness\AddActive.aspx.designer.cs">
+      <DependentUpon>AddActive.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consulters\contentsList.aspx.cs">
+      <DependentUpon>contentsList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consulters\contentsList.aspx.designer.cs">
+      <DependentUpon>contentsList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="department\bussinessDetail.aspx.cs">
+      <DependentUpon>bussinessDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="department\bussinessDetail.aspx.designer.cs">
+      <DependentUpon>bussinessDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="department\consulterDetail.aspx.cs">
+      <DependentUpon>consulterDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="department\consulterDetail.aspx.designer.cs">
+      <DependentUpon>consulterDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="department\select.ashx.cs">
+      <DependentUpon>select.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\Tools.cs" />
+    <Compile Include="utility\DateTimeNew.cs" />
+    <Compile Include="utility\DBHelper.cs" />
+    <Compile Include="utility\Keys.cs" />
+    <Compile Include="utility\Tools.cs" />
+    <Compile Include="VCode.ashx.cs">
+      <DependentUpon>VCode.ashx</DependentUpon>
+    </Compile>
+    <Content Include="App_Code\trimString.cs" />
+    <Compile Include="bussiness\bussinessModify.aspx.cs">
+      <DependentUpon>bussinessModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bussiness\bussinessModify.aspx.designer.cs">
+      <DependentUpon>bussinessModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clients\helperRegistSuc.aspx.cs">
+      <DependentUpon>helperRegistSuc.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clients\helperRegistSuc.aspx.designer.cs">
+      <DependentUpon>helperRegistSuc.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clients\HelperModify.aspx.cs">
+      <DependentUpon>HelperModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clients\HelperModify.aspx.designer.cs">
+      <DependentUpon>HelperModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="content.aspx.cs">
+      <DependentUpon>content.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="content.aspx.designer.cs">
+      <DependentUpon>content.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bussiness\bussinessAddActivity.aspx.cs">
+      <DependentUpon>bussinessAddActivity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bussiness\bussinessAddActivity.aspx.designer.cs">
+      <DependentUpon>bussinessAddActivity.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="bussiness\bussinessprofile.aspx.cs">
+      <DependentUpon>bussinessprofile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="bussiness\bussinessprofile.aspx.designer.cs">
+      <DependentUpon>bussinessprofile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="changepassword\changePassword.aspx.cs">
+      <DependentUpon>changePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="changepassword\changePassword.aspx.designer.cs">
+      <DependentUpon>changePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App_Code\connectDb.cs" />
+    <Compile Include="changepassword\Passwordrecovery.aspx.cs">
+      <DependentUpon>Passwordrecovery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="changepassword\Passwordrecovery.aspx.designer.cs">
+      <DependentUpon>Passwordrecovery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consulters\consulter.aspx.cs">
+      <DependentUpon>consulter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consulters\consulter.aspx.designer.cs">
+      <DependentUpon>consulter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consulters\consulterModify.aspx.cs">
+      <DependentUpon>consulterModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consulters\consulterModify.aspx.designer.cs">
+      <DependentUpon>consulterModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consulters\consulterRegister.aspx.cs">
+      <DependentUpon>consulterRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consulters\consulterRegister.aspx.designer.cs">
+      <DependentUpon>consulterRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="consulters\registSuccess.aspx.cs">
+      <DependentUpon>registSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="consulters\registSuccess.aspx.designer.cs">
+      <DependentUpon>registSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="clients\helperSelection.aspx.cs">
+      <DependentUpon>helperSelection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clients\helperSelection.aspx.designer.cs">
+      <DependentUpon>helperSelection.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="clients\HelperRegister.aspx.cs">
+      <DependentUpon>HelperRegister.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="clients\HelperRegister.aspx.designer.cs">
+      <DependentUpon>HelperRegister.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Helper\DBHelper.cs" />
+    <Compile Include="Helper\ExcelHelper.cs" />
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="lyb\Addmsg.aspx.cs">
+      <DependentUpon>Addmsg.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lyb\Adminhf.aspx.cs">
+      <DependentUpon>Adminhf.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lyb\clsMain.cs" />
+    <Compile Include="lyb\download.aspx.cs">
+      <DependentUpon>download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lyb\Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="lyb\home.aspx.cs">
+      <DependentUpon>home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lyb\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lyb\Login_M.aspx.cs">
+      <DependentUpon>Login_M.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lyb\ModifyPass.aspx.cs">
+      <DependentUpon>ModifyPass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="lyb\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="lyb\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="lyb\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="lyb\UserParameters.cs" />
+    <Compile Include="lyb\ZhNetLibrary.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="regist.aspx.cs">
+      <DependentUpon>regist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="regist.aspx.designer.cs">
+      <DependentUpon>regist.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="psytest\conclusion.aspx.cs">
+      <DependentUpon>conclusion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="psytest\conclusion.aspx.designer.cs">
+      <DependentUpon>conclusion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="psytest\shijuan1.aspx.cs">
+      <DependentUpon>shijuan1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="psytest\shijuan1.aspx.designer.cs">
+      <DependentUpon>shijuan1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="psytest\shijuan2.aspx.cs">
+      <DependentUpon>shijuan2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="psytest\shijuan2.aspx.designer.cs">
+      <DependentUpon>shijuan2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="psytest\shijuan3.aspx.cs">
+      <DependentUpon>shijuan3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="psytest\shijuan3.aspx.designer.cs">
+      <DependentUpon>shijuan3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="psytest\shijuan4.aspx.cs">
+      <DependentUpon>shijuan4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="psytest\shijuan4.aspx.designer.cs">
+      <DependentUpon>shijuan4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="psytest\shijuan5.aspx.cs">
+      <DependentUpon>shijuan5.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="psytest\shijuan5.aspx.designer.cs">
+      <DependentUpon>shijuan5.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="psytest\shijuan6.aspx.cs">
+      <DependentUpon>shijuan6.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="psytest\shijuan6.aspx.designer.cs">
+      <DependentUpon>shijuan6.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="psytest\shijuan7.aspx.cs">
+      <DependentUpon>shijuan7.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="psytest\shijuan7.aspx.designer.cs">
+      <DependentUpon>shijuan7.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="title.aspx.cs">
+      <DependentUpon>title.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="title.aspx.designer.cs">
+      <DependentUpon>title.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="textpage\_notes\emx_nav_left.css.mno" />
+    <Content Include="VCode.ashx" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="lyb\Addmsg.aspx.resx">
+      <DependentUpon>Addmsg.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lyb\Adminhf.aspx.resx">
+      <DependentUpon>Adminhf.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lyb\download.aspx.resx">
+      <DependentUpon>download.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lyb\Global.asax.resx">
+      <DependentUpon>Global.asax.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lyb\home.aspx.resx">
+      <DependentUpon>home.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lyb\index.aspx.resx">
+      <DependentUpon>index.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lyb\Login_M.aspx.resx">
+      <DependentUpon>Login_M.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lyb\ModifyPass.aspx.resx">
+      <DependentUpon>ModifyPass.aspx.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="lyb\obj\Debug\WebApplication2.Addmsg.aspx.resources" />
+    <EmbeddedResource Include="lyb\obj\Debug\WebApplication2.Adminhf.aspx.resources" />
+    <EmbeddedResource Include="lyb\obj\Debug\WebApplication2.Global.asax.resources" />
+    <EmbeddedResource Include="lyb\obj\Debug\WebApplication2.home.aspx.resources" />
+    <EmbeddedResource Include="lyb\obj\Debug\WebApplication2.Login_M.aspx.resources" />
+    <EmbeddedResource Include="lyb\obj\Debug\WebApplication2.ModifyPass.aspx.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BussinessImages\" />
+    <Folder Include="clientImg\" />
+    <Folder Include="helperImage\" />
+    <Folder Include="lyb\hfword\" />
+    <Folder Include="lyb\lyword\" />
+    <Folder Include="lyb\obj\Debug\TempPE\" />
+    <Folder Include="private\images\portfolio\item\" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="jmail">
+      <Guid>{AED3A6B0-2171-11D2-B77C-0008C73ACA8F}</Guid>
+      <VersionMajor>4</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>26818</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:26818/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
